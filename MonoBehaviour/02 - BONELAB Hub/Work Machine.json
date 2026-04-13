@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 594
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 15235
+  },
+  "title": "<b>Work Machine</b> ",
+  "body": "<line-indent=10%> No information of value may be found on this computer, it is simply a clone of my mimic-machine from the old office.\r\n<br><br>\r\nIf you want to see what’s being worked on you will have to find me at [REDACTED] in the future :)\r\n<br><br>\r\nAKO\r\n<br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

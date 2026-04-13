@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 681
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 15364
+  },
+  "title": "<b> Moving Labs?</b> ",
+  "body": "The Lab has gone through so many iterations at this point that I’ve completely lost track of what version number we should call it. The aim is to provide a comfortable yet usable space for everyone that works here and to get to this point has been a monumental undertaking!\r\n<br><br>\r\nI’ve started design work on a new place, [REDACTED] that will work pretty well for continued research into [REDACTED].\r\n<br><br>\r\nThe project list has outgrown MythOS and our Lab; or at least the instability of the experiments make this a dangerous place to continue.. So time for [REDACTED]!\r\n<br><br>\r\nI’ll keep this place connected to the Lab for the time being but that will need to change at some point.\r\n<br>\r\nAKO\r\n<br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

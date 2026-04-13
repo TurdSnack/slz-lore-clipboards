@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 108
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 6672
+  },
+  "title": "<b><color=#224877>LiftCrew 06 - FantasyLand</color></b> ",
+  "body": "<color=#224877>FantasyLand people are actually straight up stupid. They wish for the dumbest things I can’t even believe it. Not once have they wished for alcohol or stuff to brew their own. <br><br> I was going to start a pool with the boys on what sport, if any, they would come up with but these Heaven’s Reach losers can’t even come up with anything. They spend all their time struggling to survive in an environment we perfectly crafted for them to survive in! We send them whatever they want and it is always just boring basics. <br><br> You’d think one of them would have a dream for once and wish for a motorcycle or something badass, come on! </color> <br><br> ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

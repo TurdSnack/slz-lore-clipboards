@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1009
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 13412
+  },
+  "title": "<b>LavaGang Was Here<b>",
+  "body": "<line-indent=10%>Greetings\r\n<br><br>\r\nIf you’re reading this, we have good and bad news…\r\n<br><br>\r\nThe good news is Monogon has abandoned Fantasy Land in favor of greener pastures.. Leaving LavaGang to dig into their left behind research and resources.\r\n<br><br>\r\nThe bad news is you’re well past the point of no return. If you stay here now you will be stuck in a long forgotten back closet of MythOS forever, but if you make it to the Void you’re welcome to come join us!\r\n<br><br>\r\nWe’re building something new and expanding upon what's been found. Grab what you can and we’ll see you on the outside!\r\n<br><br>\r\n\r-LavaGang was here\r\n",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

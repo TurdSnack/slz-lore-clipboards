@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 267
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 21398
+  },
+  "title": "<b>Encrypted Equipment</b> ",
+  "body": "<line-indent=10%><color=black>S: I’m finishing up some additional work on the encrypted PC equipment.</color>\r\n<br><br>\r\n<color=#1D0707>C: Thanks, I will feel safer about digging and shipping this stuff out once I know my equipment isn’t logging everything I do.</color>\r\n<br><br>\r\n<color=black>S: Even after the broad security sweep of the museum, Alora has no idea who we are or that we’re working down here.</color>\r\n<br><br>\r\n<color=#1D0707>C: District six was a major hotzone after the security director things so even if we’re in a low population instance, I don’t feel truly safe from prying eyes.</color>\r\n<br><br>\r\n<color=black>S: Don’t be too paranoid, we aren’t here for much longer anyways.</color>\r\n<br><br>\r\n‎ ",
+  "font_custom": {
+    "m_FileID": 190,
+    "m_PathID": 4497554036623153059
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.11320752,
+    "g": 0.027233882,
+    "b": 0.027233882,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

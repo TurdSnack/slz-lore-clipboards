@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 139
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 1826
+  },
+  "title": "<b>Climate Science</b> ",
+  "body": "I heard an interesting theory that (on a high level) all of this tech has been developed and pushed for because of 1970’s data science that suggests by the mid 21st century a large portion of the world population will literally be under water.\r\n<br><br>\r\nThe theory goes that some top scientists knew nobody would listen to their pleas to curb carbon emissions and dismiss the very real warning signs. Instead of trying to convince people they developed these simulations to be so addictive and replace a person’s life that they will simply stay inside all day and consume minimal resources.\r\n<br><br>\r\nI don’t really know if I buy it but it is an interesting concept to consider.\r\n<br><br>\r\n::ERROR::\r\n<br>\n‎ \n",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

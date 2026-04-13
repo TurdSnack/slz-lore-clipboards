@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 270
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 17111
+  },
+  "title": "<b>Stress Relief</b> ",
+  "body": "<line-indent=10%>I made the printer’s replicable specifically to smash them.\r\n<br><br>\r\nEvery day for lunch I smash a printer.\r\n<br><br>\r\nEvery break I smash a printer.\r\n<br><br>\r\nSmashing the printers reduces my stress. If Chris spent less time at the MoTD I think he’d find therapeutic benefits to smashing printers.\r\n<br><br>\r\n- GS\r\n<br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 118
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 13866
+  },
+  "title": "<b>P.I.L.L.E.R - Creature “TALL”</b> ",
+  "body": "<br><br>\r\nObservation: The creature rarely seems to feel concern over its imprisonment, and only appears to remember when it transitions between environment “types”. Transitional phases (Example: going through doorways) seems to trigger a moment of remembrance and distress before subsiding after a few minutes.\r\n<br><br>\r\nExperiment: We have placed a void mirror in the creatures containment site to see if any reaction may be observed. Void mirror entities often take on the temperament and behavior of those they reflect.\r\n<br><br>\r\nOfficer P-40L\r\n<br><br>\r\n",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

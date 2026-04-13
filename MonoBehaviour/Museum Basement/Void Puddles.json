@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 264
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 21394
+  },
+  "title": "Void Puddles",
+  "body": "The archival information available on the purple void puddles and energy particles are either extremely lacking or extremely guarded. This is what I was able to collect:\n<br><br>\nMonogon inquiry returns: Void Leaks are a heightened concentration of Void Energy. This substance is believed to be the \"glue\" which binds material matter. These leaks can appear for a variety of reasons known and unknown though most often found at sites of removed/destroyed static geometry. Cleaning and patching of leaks is possible through [REDACTED] however most will seal on their own, given enough time. \n<br><br>\nVoid Energy off-gassing can pose a dangerous threat to entities due to [REDACTED]. Caution is advised. Please alert Monogon Clean-Up Crew or Trash Handlers if there is a suspected leak in your vicinity.",
+  "font_custom": {
+    "m_FileID": 190,
+    "m_PathID": 4497554036623153059
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

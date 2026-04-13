@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 309
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 14899
+  },
+  "title": "<b>MEMO: BreakRoom Renovations</b> ",
+  "body": "<line-indent=10%> Just a notice to let everyone know, we will be fully renovating the breakroom after the transfer from District06 to the [REDACTED].\n<br><br>\nPLEASE PLEASE PLEASE make sure to remove food items in each of your corrosponding spaces as fid-markers will be reset leading to un-tracked containers.\n<br><br>\nYou are responsible for your own mess!\n<br><br>",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

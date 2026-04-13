@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 797
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 15501
+  },
+  "title": "<b>Special Projects Area</b> ",
+  "body": "Alright it seems like MonoSec hasn’t yet found the Special Projects Area but they have started a serious investigation into the disappearance of our office in District06. I’m still not taking any chances.\r\n<br><br>\r\nSo far I don’t believe there is a mole or any saboteurs on the team or the hounds would have been here sooner. It will be safer for everyone if we split and fade into isolation.\r\n<br><br>\r\n\r\n<br>\r\nEveryone is clever enough not to get caught (I hope). If anyone does get found by Alora or Monogon, we may need to plan to mount a rescue mission.\r\n<br><br>\r\nRiscii\r\n<br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 1,
+  "textColor": {
+    "r": 0.30588236,
+    "g": 0.30588236,
+    "b": 0.30588236,
+    "a": 1.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

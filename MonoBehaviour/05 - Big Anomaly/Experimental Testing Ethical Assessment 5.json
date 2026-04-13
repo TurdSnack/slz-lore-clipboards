@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 893
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 28896
+  },
+  "title": "<b>Experimental Testing Ethical Assessment</b>",
+  "body": "_____ Is the test Medically relevant?\r\n<br>\r\n_____ Would the experiment be considered ethically questionable outside a virtual testing environment?\r\n<br>\r\n_____ Do you consider the simulated entity to be “alive”?\r\n<br>\r\n_____ Did the simulated entity present visible symptoms of pain?\r\n<br>\r\n_____ On a scale of 1-10 how emotionally disturbing are the results of this experiment?\r\n<br>\r\n_____ Remember, this isn’t real. You may be experiencing Involuntary Suspension of Disbelief. \r\n<br>\r\n_____ It is recommended to return to a Conceptual Isolation Chamber as soon as possible.\r\n<br>\r\n_____ Does the lighting and/or ambient sounds in the environment change your perception of the ethical questionability of the experiment?\r\n<br><br>\r\n- Ethics Officer, A.A.\r\n<br><br>\r\n",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

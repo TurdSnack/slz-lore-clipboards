@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 473
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 21594
+  },
+  "title": "<b>REDACTED INFO RETURN</b> ",
+  "body": "Monogon continues to update the mechanics exhibit, sending older pieces down here. <br><br> Breaking the mechanics into tablet fragments, I can send them without drawing attention. <br><br> If they start searching for anyone working on forked mechanics, you might be done for… <br><br> Please let me know when I can return to the lab, this basement is starting to get creepy. <br> Hopefully we can split out into the void and build something new asap <br><br> Thanks, <br> -Chris <br><br> ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

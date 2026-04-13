@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 250
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 6911
+  },
+  "title": "<b><color=#89172c>LiftCrew 06 - Concerning Observations</color></b> ",
+  "body": "<color=#89172c>REPORT - It is time to submit an official grievance of ethical concern relating to LiftCrew06 operating supervisor [REDACTED]. <br><br> Observing party: [REDACTED] <br><br> Observation: LiftCrew06 Operating Supervisor has expressed ethically questionable intent in relation to Heaven’s Reach inhabitants, directly contradicting the prime directive. <br><br> We are tasked with maintaining a level of standard with which to grant appropriate requests for aid from the Heaven’s Reach Simulation entities. While rendering aid through the Wishing Well Lift, the supervisor on hand began issuing orders to alter fulfilled wish requests with items outside the guidelines of said requests. <br><br> I believe these altered wish grants could in turn modify the behavior of the inhabitants of the simulation in negative and undesirable ways.  <br><br> Please take appropriate action to correct this ethically questionable behavior.  </color> <br><br> ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 458
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 7238
+  },
+  "title": "<b>MythOS to FantasyLand shipping services</b> ",
+  "body": "Lately we have been transferring more and more security resources to this area. A noticeable increase in modern firearms and ammunition, despite this sector being clearly tagged as Fantasy, Medieval, Gothic, Antique, DarkAge.  <br><br> I am not one to question the intention of the system, but we’re starting to get to a stack overflow state where an excess of weaponry is stored around leading to tighter space for actual fantasy supplies.  <br><br> If we could get some of this stuff offloaded or reallocated to an appropriate location we could have more room for actual medieval assets… <br><br> ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 347
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 7042
+  },
+  "title": "<b>FL Castmember - TrashHandlers</b> ",
+  "body": "<line-indent=10%><color=#1c4b67>TH-101138: Cleaning day is such a funny thing. Us TrashHandlers have to clean everyday then once a month they require all regular employees to help? </color> <br><br> <color=#30803e>TH-050255: I am so tired of cleaning up this fantasy stuff, can’t we just cleanse it all with lava and restart?</color> <br><br> <color=#1c4b67>TH-101138: Cleanse it with lava, rebuild from scratch, let us create stuff sometimes too.</color> <br><br> <color=#30803e>TH-050255: Yeah maybe we should get a “Creation day” where us TrashHandlers get to create whatever random stuff we want? Going to be a lot more lava thats for sure.</color> <br><br> <color=#1c4b67>TH-101138: Lava gang roll in, break things, melt stuff, clean up, sign off!</color> <br><br> ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

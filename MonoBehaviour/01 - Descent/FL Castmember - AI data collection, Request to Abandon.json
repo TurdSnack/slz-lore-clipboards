@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 200
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 6839
+  },
+  "title": "<b>FL Castmember - AI data collection, Request to Abandon</b> ",
+  "body": "<line-indent=10%>It seems a Heaven’s Reach elder has decided to seal off catacomb access from their town after stumbling down here. Continuously they have sent free-thinking dissenters down into these tombs and we have done our best to study and understand how the simulation is learning. <br><br> The Heaven’s Reach FantasyLand simulation is deciding to go purely self-sustaining. They are now viewing Castmembers in a negative light. Left to their own devices, the AI has become extremely conservative in their ideologies. <br><br> We will probably need to abandon this research dungeon and seal off the backpaths into Myth. <br><br> No skin off my back, this job is a little too creepy. <br><br> ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

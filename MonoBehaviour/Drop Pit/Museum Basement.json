@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 671
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 35626
+  },
+  "title": "<b>Museum Basement</b> ",
+  "body": "<br>\nHey [REDACTED], It’s been a while since I started working in archival at the MoTD. They still haven’t suspected anything so I think we’re in the clear for now.\r\n<br><br>\r\nI’ll keep sifting through museum objects for anything relevant we can send out of MythOS.. Though I think we’re going to need someone higher up to actually make a hand-off of anything important. I think we can get one of the Steve’s to apply and work as a director of marketing or something. Let me know what you think.. I’m starting to find some interesting stuff and its piling up quick.\r\n<br><br>\r\n- Chris\r\n<br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

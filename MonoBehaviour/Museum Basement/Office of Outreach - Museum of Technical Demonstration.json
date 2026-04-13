@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 418
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 21533
+  },
+  "title": "<b>Office of Outreach - Museum of Technical Demonstration</b> ",
+  "body": "<line-indent=10%>Designs for the opening day posters are coming along nicely. We’ll need to run the video ad edits by legal, to be sure everything looks good.\r\n<br><br>\r\nAll rejected promotional materials are to be sent to Trash Handlers for recycling.\r\n<br><br>\r\nMythOS opening day is expected to be a big event and the hope is to hold annual celebrations, so these materials will be necessary for future promotions.\r\n<br><br>\r\nWe hope to have updates on exhibits as improvements are completed in MythOS City Development.\r\n<br><br>\r\n- Steve!\r\n<br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 190,
+    "m_PathID": 4497554036623153059
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

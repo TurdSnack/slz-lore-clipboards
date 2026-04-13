@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 866
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 15596
+  },
+  "title": "<b>Cleaning Out Old Projects</b> ",
+  "body": "OKAY since we have some extra downtime now and we want to move quickly later, I am going to do some serious culling of old projects.\r\n<br><br>\r\nSome of the more experimental work accumulated a whole bunch of odd stuff that we need to pick through… maybe some of it’s useful outside the lab but right now we need to quarantine this stuff.\r\n<br><br>\r\nWe still don’t know exactly how the teams will want to assemble things but we have lots of data on Sabrelake’s security uses.\r\n<br>\r\nFunny…\r\n<br><br>\r\nRiscii\r\n<br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 1,
+  "textColor": {
+    "r": 0.30588236,
+    "g": 0.30588236,
+    "b": 0.30588236,
+    "a": 1.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

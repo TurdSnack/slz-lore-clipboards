@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 7339
+  },
+  "title": "<b>Void Mirrors 1/2</b> ",
+  "body": "Mirrors are hypnotizing but exceptionally calming.\r\n<br><br>\r\nWhen I began working on my research of the void mirrors and moved into this chamber, I wasn’t fully convinced of the almost addictive properties that others have described with mirrors. I am now beginning to understand the draw and power they have. I don’t even feel like leaving.. So I began to setup an even more advanced work lab here on site. Working in such close proximity to the mirror will allow me to really dive into the magic of these things.\r\n<br><br>\r\nNate\r\n<br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

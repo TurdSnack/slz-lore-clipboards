@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 39
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 9375
+  },
+  "title": "<b><color=#30803e>Instructions for Emergency Portable Elevator</color></b> ",
+  "body": "<color=#30803e>\nStand at a safe distance.\r\n\r<br>\nBreak containment box.\r\n\r<br>\nAllow for n^64 equivalent millisecond processing cycles for the elevator to decompress to local space.\r\n\r\r<br><br>\nWarning this portable elevator is for emergency use only. Long term use of conceptual isolation chambers can lead to decreased effectiveness of grounding. </color> <br><br> ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

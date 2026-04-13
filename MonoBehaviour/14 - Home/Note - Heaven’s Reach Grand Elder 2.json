@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 44
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 9384
+  },
+  "title": "<b>Note - Heaven’s Reach Grand Elder</b>",
+  "body": "<line-indent=10%>Hope decays for our continued way of peace.\r\n<br><br>\r\nThe heretical forsaken cast into the pit has somehow survived, scurrying through the bowels of the ancient tombs like a grave leech picking at corpses.\r\n<br><br>\r\nTheir rummaging led to the incidental awakening of some ancient mechanism, tearing the ground open like a gateway to hell. When our flock ventured into the depths of the maw, the horrible truth was discovered… we have been abandoned.\r\n<br><br>\r\nWe will no longer stand for this. We will breach these subterranean halls to retake control of these lands.",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

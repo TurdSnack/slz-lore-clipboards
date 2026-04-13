@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 455
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 37072
+  },
+  "title": "<b>Rugs</b> ",
+  "body": "<line-indent=10%> Yo Steve!\r\n<br><br>\r\nI picked up some farmland upstate and I’m slowly building a homestead out there. I think my plan is going to be to start a hemp rug business!\r\n<br><br>\r\nNulls are foolproof as consistent workers so they should keep the automated shipping systems working! What could go wrong?\r\n<br>\r\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

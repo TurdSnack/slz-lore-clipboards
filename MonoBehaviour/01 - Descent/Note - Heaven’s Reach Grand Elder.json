@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 584
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 7439
+  },
+  "title": "<b>Note - Heaven’s Reach Grand Elder</b>",
+  "body": "<line-indent=10%>After great deliberation with the underdwellers, we have decided to seal up these tombs and retract any record of their existence. <br><br> Far too long have we retained this devilish pact, allowing these subterranean demons to toy with the souls of our flock.  <br><br> Henceforth we shall ensure our destitutes are unable to reach these horrible halls, at any cost. <br><br> The horrors of keeping souls alive while the flesh decays… this is necromancy. ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

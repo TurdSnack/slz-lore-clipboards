@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 185
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 16614
+  },
+  "title": "<b>Plates Taking Root</b>",
+  "body": "The foundation plates take root and the process is wild. It doesn’t matter if MythOS or Monogon or the security team approves them. The raw concept written as rules, layered with void energy, takes root and world is born forth around it.\r\n<br><br>\r\nI’ll need to document my observations in a more formal medium, but the initial impressions were cosmic. The great plate appeared to slowly sink into the environment which was originally a garbage pile. Void energy began to leak out, slowly dissolving and changing any material it touched. Eventually metallic spheres (bubbles?) began sprouting from the void energy spreading and forming the physical aspects of the environment.\r\n<br><br>\r\nOver time the world took shape, creating a new space out of nothing but random matter. I’ll continue to watch.\r\n<br><br>\r\nBanana Land dream is still alive!\r\n<br><br>\r\n",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

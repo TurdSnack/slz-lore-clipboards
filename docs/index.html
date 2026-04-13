@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BONELAB // Secure Boards</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── Header ─────────────────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-title">
+        <span class="header-label">MONOGON INDUSTRIES</span>
+        <h1>SECURE BOARDS // K.E.L.I - LORE ARCHIVE</h1>
+      </div>
+      <div class="header-controls">
+        <input
+          type="search"
+          id="search"
+          placeholder="Search boards..."
+          autocomplete="off"
+          spellcheck="false"
+        >
+        <select id="level-filter">
+          <option value="">All Locations</option>
+          <!-- populated dynamically by app.js from LEVEL_LABELS in data.js -->
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Grid ───────────────────────────────────────────────────── -->
+  <main>
+    <p id="empty-state" class="empty-state hidden">No boards match your search.</p>
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <!-- ── Viewer Modal ───────────────────────────────────────────── -->
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+
+    <div class="modal-frame">
+
+      <!-- Clipboard widget -->
+      <div class="clipboard">
+        <div class="clipboard-clip">
+          <div class="clip-bar"></div>
+          <div class="clip-hole"></div>
+        </div>
+        <div class="clipboard-body-wrap">
+          <div class="paper-frost" aria-hidden="true"></div>
+          <div class="clipboard-paper">
+            <div class="paper-content">
+              <div class="paper-header">
+                <button class="close-btn" id="modal-close" aria-label="Close viewer">&times;</button>
+              </div>
+              <h2 id="modal-title" class="paper-title"></h2>
+              <div id="modal-body" class="paper-body"></div>
+              <div class="paper-footer">
+                <span id="modal-source" class="paper-source"></span>
+                <span id="modal-badge" class="level-badge"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Audio bar -->
+      <div class="audio-bar" id="audio-bar">
+        <div class="audio-info">
+          <span class="audio-icon">&#9834;</span>
+          <span id="audio-track-label">No audio</span>
+        </div>
+        <div class="audio-controls">
+          <button id="audio-toggle" class="audio-btn" disabled title="Play/pause ambient audio">
+            &#9654;
+          </button>
+          <label class="sr-only" for="audio-volume">Volume</label>
+          <input type="range" id="audio-volume" min="0" max="1" step="0.05" value="0.35" title="Volume">
+          <span class="audio-vol-icon">&#128266;</span>
+        </div>
+      </div>
+
+    </div><!-- /.modal-frame -->
+  </div><!-- /#modal -->
+
+  <script src="js/data.js"></script>
+  <script src="js/tmp-parser.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

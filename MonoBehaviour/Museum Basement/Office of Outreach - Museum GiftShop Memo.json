@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 563
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 21693
+  },
+  "title": "<b>Office of Outreach - Museum GiftShop Memo</b> ",
+  "body": "<line-indent=10%>GiftShop Products:\r\n<br>\nUltraMersion Basketballs - Selling well despite lack of available courts and hoops within the city. Perhaps this is something to bring up for future development research? 25 units on hand.\r\n<br>\nSwords & Spiders - We can’t seem to keep any Sword&Spiders blind boxes in stock, they keep selling out and are proving difficult to come by. Perhaps we should open an exhibit for the game?\r\n<br>\nApollo Toys - People keep asking if they can purchase the BIG Apollo figure, so there should be an official inquiry into a possible limited run of the light probe god statues?\r\n<br>\nNoodleDog - The noodly foam swords are absolutely our number one seller, however there are rumors of a recall on the product due to a very rare bug where the safety sword can become an unstoppable destructive weapon. We haven’t seen anything like that happen with our stock but the concern is still there. \r\n<br>\n- Steve!\r\n<br>\n‎ \n",
+  "font_custom": {
+    "m_FileID": 190,
+    "m_PathID": 4497554036623153059
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

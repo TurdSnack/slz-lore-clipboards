@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 570
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 12688
+  },
+  "title": "<b>Expanding Beyond FantasyLand</b> ",
+  "body": "<line-indent=10%> Word has come down that we’re moving our shops to a different simulation.\r\n<br><br>\r\nFantasyLand cast members are being fully pulled from his housing area, separated, and sent to newer blocks. We’ll be good since they’re letting us expand our cornershop operation across a ton of instances and the Monogon hiring spree is in full swing.\r\n<br><br>\r\nI guess Medieval isn’t bringing in the money it used to be? Or maybe the new worlds they’ve been developing are just that much more lucrative? We’re going to need to stock more popcorn and wait to see all the drama!\r\n<br><br>\r\nBandit\r\n<br><br>\r\n",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

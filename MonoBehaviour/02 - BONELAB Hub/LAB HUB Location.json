@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1055
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 15805
+  },
+  "title": "<b>LAB HUB Location</b> ",
+  "body": "Everyone should still have access to the Lab hub if they use one of the Boneworks backdoor methods. It’s a fully self contained bridge so as long as everyone manages to keep a copy of their ID badges.\r\n<br><br>\r\nPlease keep track of your ID badges.\r\n<br><br>\r\n\r\n<br>\r\nSee ya!\r\n<br><br>\r\nRiscii\r\n<br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 1,
+  "textColor": {
+    "r": 0.30588236,
+    "g": 0.30588236,
+    "b": 0.30588236,
+    "a": 1.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

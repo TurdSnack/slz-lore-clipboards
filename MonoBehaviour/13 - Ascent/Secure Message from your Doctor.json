@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1007
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 13409
+  },
+  "title": "Secure Message from your Doctor",
+  "body": "<line-indent=10%>Thank you for reaching out to me about your problems staying focused. \n<br><br>\nLeaving your work key behind in your lunchbox is a serious matter! We can fix your mental health but one can't recover lost revenue from your tardiness.\n<br><br>\n I'm prescribing you 999mg Renderall. That should help keep you productive.\n<br><br>\n- Dr. Rotcod, LVSW",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

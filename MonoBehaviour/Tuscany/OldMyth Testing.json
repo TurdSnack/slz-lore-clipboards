@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 64
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 3627
+  },
+  "title": "<b>OldMyth Testing</b>",
+  "body": "I miss Old Myth\n<br><br>\nEveryone else who remembers those days, only remembers the crude and rudimentary AI attempts.\n<br><br>\nAge of root? Measurement of physical distance? A seed value? Some kind of void-based molecular composition we are unaware of? Maybe similar material signatures?\n<br>\nIt is clear the lower the levels stack and further the tendrils spread, not only is the iteration count lower but the space becomes more abstracted. Not only does the space have a more unfinished / uninhabited / liminal feel to it, but the sense of danger and fragility increases.\n<br><br>\n\n\n<br><br>\n",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

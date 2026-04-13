@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 464
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 36038
+  },
+  "title": "<b>Authoritarian Nightmare</b> ",
+  "body": "Not sure what the simulation is really thinking but DAMN does it feel good to beat up fascists with a guitar. \r\n<br><br>\r\nI think I actually saw Arthur Ford himself punch his way through this street one time. It was hard to tell, but I swear it was him.. he had that glint in his eye and moved in that way… clashing “Oh what up son” when fist collides face. \r\n<br><br>\r\nI hope this is a taste of whats to come!\r\n<br>\r\nLETS ROCK \r\n<br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

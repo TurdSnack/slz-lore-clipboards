@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1027
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 15766
+  },
+  "title": "<b> This Room 1/3</b> ",
+  "body": "<line-indent=10%> Hello! If you’re reading this then either:\r\n<br>\r\nYou’re a Lab member, welcome! The following text won’t be redacted.\r\n<br>\r\nYou’re a Monogon/Sabrelake/Gammon Security Agent. GET BENT (The following text will be REDACTED!)\r\n<br><br>\r\nIf you’ve come here from the Lab then let me explain that this room does NOT exist in the same space as the Lab… This little space exists within MythOS while the Lab technically does not (Hence the giant “You’re Being Watched” poster right there). Spaces can be connected to one another through a variety of ways and even if they seem to be directly physically connected they often aren’t.\r\n<br><br>\r\nAKO\r\n<br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

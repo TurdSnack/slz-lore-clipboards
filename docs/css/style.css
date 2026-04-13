@@ -1,0 +1,476 @@
+/* ── Fonts ────────────────────────────────────────────────────── */
+@font-face {
+  font-family: 'Code Pro LC';
+  src: url('../Code Pro LC.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ── Reset & Base ─────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:          #111215;
+  --bg-alt:      #1a1c21;
+  --border:      #2e3038;
+  --text:        #c8cad0;
+  --text-dim:    #5a5e6e;
+  --accent:      #4e9af1;
+
+  --font-ui:   'Code Pro LC', monospace;
+  --font-body: 'Code Pro LC', monospace;
+
+  --clip-w:    560px;
+  --clip-pad:  2.2rem;
+  --texture-ratio: calc(1793 / 1198); /* exact texture portrait ratio */
+
+  /* Clipboard text size — edit this value to match the in-game look */
+  --paper-font-size: 1.5rem;
+}
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-ui);
+  min-height: 100vh;
+}
+
+/* ── Utility ──────────────────────────────────────────────────── */
+.hidden { display: none !important; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  clip: rect(0,0,0,0); overflow: hidden;
+}
+
+/* ── Header ───────────────────────────────────────────────────── */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg-alt);
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 1.5rem;
+}
+
+.header-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.header-label {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  color: var(--text-dim);
+  text-transform: uppercase;
+}
+
+.header-title h1 {
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+
+.header-controls {
+  display: flex;
+  gap: 0.75rem;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.header-controls input,
+.header-controls select {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 3px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.header-controls input:focus,
+.header-controls select:focus {
+  border-color: var(--accent);
+}
+
+.header-controls input[type="search"] { width: 220px; }
+
+/* ── Grid ─────────────────────────────────────────────────────── */
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--text-dim);
+  padding: 4rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+}
+
+/* ── Card ─────────────────────────────────────────────────────── */
+.card {
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+  overflow: hidden;
+  aspect-ratio: 1198 / 1793;
+  background-image: url('../texture_clipBoardPaper.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border: 1px solid rgba(0,0,0,0.3);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.7);
+}
+
+.card:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Gradient overlay so text is readable over the texture */
+.card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(30,25,15,0.08) 0%,
+    rgba(30,25,15,0.55) 55%,
+    rgba(30,25,15,0.82) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem 0.9rem 0.85rem;
+}
+
+.card-badge {
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.4rem;
+  border-radius: 2px;
+  border: 1px solid currentColor;
+  align-self: flex-start;
+  margin-bottom: 0.45rem;
+  opacity: 0.92;
+}
+
+.card-title {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #1a1008;
+  text-shadow: 0 1px 2px rgba(255,255,255,0.3);
+}
+
+.card-preview {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: #2a2015;
+  margin-top: 0.3rem;
+  line-height: 1.4;
+  opacity: 0.85;
+  /* clamp to 2 lines */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Level badge colours are applied inline by app.js (palette-based),
+   so no per-level CSS classes are needed here. */
+
+/* ── Modal ────────────────────────────────────────────────────── */
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 8, 10, 0.88);
+  backdrop-filter: blur(3px);
+}
+
+.modal-frame {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  max-height: 90vh;
+  width: min(var(--clip-w), 100%);
+}
+
+/* ── Clipboard widget ─────────────────────────────────────────── */
+.clipboard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.75), 0 2px 6px rgba(0,0,0,0.5);
+  border-radius: 4px 4px 3px 3px;
+  overflow: hidden;
+}
+
+.clipboard-clip {
+  background: linear-gradient(to bottom, #5a5a5a, #3a3a3a);
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  border-bottom: 2px solid #222;
+}
+
+.clip-bar {
+  width: 60%;
+  height: 14px;
+  background: linear-gradient(to bottom, #888, #555);
+  border-radius: 3px;
+  box-shadow: inset 0 1px 2px rgba(255,255,255,0.15), 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.clip-hole {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #222;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.8);
+  border: 2px solid #444;
+}
+
+/* Wrapper gives us a positioned ancestor outside the scroll container */
+.clipboard-body-wrap {
+  position: relative;
+}
+
+.clipboard-paper {
+  background-image: url('../texture_clipBoardPaper.png');
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  overflow-y: auto;
+  /* Lock the paper to the texture's portrait ratio; content scrolls if longer */
+  aspect-ratio: 1198 / 1793;
+  max-height: calc(90vh - 110px);
+}
+
+/* Frost overlays a blurred copy of the texture over the top of the paper.
+   backdrop-filter can't blur a parent's background-image, so instead we
+   duplicate the texture on a pseudo-element and blur it directly. */
+.paper-frost {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 7rem;
+  pointer-events: none;
+  z-index: 10;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  /* Fade the blurred texture out toward the bottom */
+  -webkit-mask-image: linear-gradient(to bottom, black 20%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 20%, transparent 100%);
+}
+
+.paper-frost::before {
+  content: '';
+  position: absolute;
+  /* Extend past the edges so blur doesn't show white fringing */
+  inset: -16px;
+  background-image: url('../texture_clipBoardPaper.png');
+  background-size: cover;
+  background-position: top left;
+  filter: blur(10px);
+}
+
+.paper-frost.visible {
+  opacity: 1;
+}
+
+.paper-content {
+  padding: var(--clip-pad);
+}
+
+.paper-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.level-badge {
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.55rem;
+  border-radius: 2px;
+  border: 1px solid currentColor;
+  /* Shadow so the badge reads clearly over the paper texture */
+  box-shadow:
+    0 0 8px 3px rgba(0, 0, 0, 0.35),
+    0 2px 6px rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  line-height: 1;
+  color: #555;
+  padding: 0 0.2rem;
+  transition: color 0.1s;
+}
+.close-btn:hover { color: #222; }
+
+.paper-title {
+  font-family: var(--font-body);
+  font-size: calc(var(--paper-font-size) * 1.3);
+  font-weight: 700;
+  color: #1a1008;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+  padding-bottom: 0.75rem;
+}
+
+.paper-body {
+  font-family: var(--font-body);
+  font-size: var(--paper-font-size);
+  line-height: 1.75;
+  color: #1e1608;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.paper-body strong { font-weight: 700; }
+
+.paper-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.paper-source {
+  font-size: 0.75rem;
+  color: #888;
+  letter-spacing: 0.08em;
+}
+
+/* ── Audio bar ────────────────────────────────────────────────── */
+.audio-bar {
+  width: 100%;
+  background: #1e2028;
+  border: 1px solid var(--border);
+  border-top: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.55rem 0.9rem;
+  gap: 1rem;
+  border-radius: 0 0 4px 4px;
+}
+
+.audio-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  min-width: 0;
+  overflow: hidden;
+}
+
+.audio-icon { font-size: 0.9rem; flex-shrink: 0; }
+
+#audio-track-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.audio-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-shrink: 0;
+}
+
+.audio-btn {
+  background: var(--border);
+  border: 1px solid #3e4050;
+  color: var(--text);
+  font-size: 0.9rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.1s;
+  font-family: var(--font-ui);
+  line-height: 1;
+}
+
+.audio-btn:hover:not(:disabled) { background: #3e4050; }
+.audio-btn:disabled { opacity: 0.35; cursor: default; }
+
+#audio-volume {
+  width: 80px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.audio-vol-icon { font-size: 0.8rem; color: var(--text-dim); }
+
+/* ── Animations ───────────────────────────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.97) translateY(6px); }
+  to   { opacity: 1; transform: scale(1)    translateY(0);   }
+}
+
+.modal:not(.hidden) .modal-frame {
+  animation: fadeIn 0.18s ease forwards;
+}
+
+/* ── Scrollbar styling (webkit) ───────────────────────────────── */
+.clipboard-paper::-webkit-scrollbar { width: 6px; }
+.clipboard-paper::-webkit-scrollbar-track { background: transparent; }
+.clipboard-paper::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.2);
+  border-radius: 3px;
+}

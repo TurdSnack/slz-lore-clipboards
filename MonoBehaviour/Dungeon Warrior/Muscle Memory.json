@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 714
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 53462
+  },
+  "title": "<b>Muscle Memory</b> ",
+  "body": "<line-indent=10%> The warrior course is proving a fantastic muscle memory building exercise. It’s interesting the obstacle-tunnel was Sabrelake’s go to method for location security for their own workspaces.\r\n<br><br>\r\nHonestly physical security like this is so medieval, like ancient moats and spike traps guarding a castle… It would be fun to try running some security gauntlets like this in the future…\r\n<br><br>\r\nCL\r\n<br>\n‎ \n",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 246
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 26721
+  },
+  "title": "<b>Moon Base Construction</b> ",
+  "body": "<line-indent=10%> The hypothesis of using a low-gravity chamber as a possible cryptid trap is a worthwhile endeavor, we need to keep exploring this theory. \r\n<br><br>\r\nObviously we don’t have any cryptids on hand to actually test this right now, but maybe we can work towards simulating or synthesizing one??\r\n<br><br>\r\nIn the meantime we should look into a more efficient re-build process for these Moonboxes. It is pretty laborious to build them and there are many more things to test in low gravity environments.\r\n<br><br>\r\n- T-Group\n<br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

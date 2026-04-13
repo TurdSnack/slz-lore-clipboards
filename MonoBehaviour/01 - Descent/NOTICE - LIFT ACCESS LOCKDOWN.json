@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 57
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 6606
+  },
+  "title": "<b>NOTICE - LIFT ACCESS LOCKDOWN</b> ",
+  "body": "Any null entity set to ascend into fantasy land MUST be secured to the lift and adorned with a fantasy appropriate avatar body. <br><br> Nulls that are detected to not be prepared for ascension will force an immediate quarantine of the lift area until destroyed. <br><br> <b>Please do not activate the emergency quarantine override.</b> <br><br> ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

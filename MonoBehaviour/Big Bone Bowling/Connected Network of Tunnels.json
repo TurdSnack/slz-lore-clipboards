@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 78
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 43498
+  },
+  "title": "<b>Connected Network of Tunnels</b> ",
+  "body": "Further research points to evidence that these tunnels do connect through the void to “close proximity” ends. It is still unclear what defines this proximal distance.\r\n<br><br>\r\nI suppose we should develop some hypothesis on this to begin running experiments, though I fear we may be out of luck with no clear method of compression in the void.\r\n<br><br>\r\nAge of root? Measurement of physical distance? A seed value? Some kind of void-based molecular composition we are unaware of? Maybe similar material signatures?\r\n<br>\r\nIt is clear the lower the levels stack and further the tendrils spread, not only is the iteration count lower but the space becomes more abstracted. Not only does the space have a more unfinished / uninhabited / liminal feel to it, but the sense of danger and fragility increases.\r\n<br><br>\r\nDr. Senzaki\r\n<br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 1,
+  "textColor": {
+    "r": 0.30588236,
+    "g": 0.30588236,
+    "b": 0.30588236,
+    "a": 1.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 84
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 19108
+  },
+  "title": "<b>Sabrelake Weapon Assets</b> ",
+  "body": "Sabrelake’s firearms always have an absurd rate of fire. Weapon labs need to progress further with testing to really see what this math is capable of.\r\n<br><br>\r\nAdjusted and heavily modified guns can start pushing physics into wild unknown territory..exciting stuff.\r\n<br><br>\r\nThe warehouse should support these kinds of things but we really need to evaluate the implications for testing.. Do these present too different variables for accurate data collection?\r\n<br><br>\r\nKW\r\n<br><br>\r\n",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

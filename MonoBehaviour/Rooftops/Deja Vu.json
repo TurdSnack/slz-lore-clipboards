@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 317
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 8830
+  },
+  "title": "<b>Deja Vu</b> ",
+  "body": "Okay I know I’ve seen this architecture somewhere before… \r\n<br><br>\r\nEither the design AI is using our memories or dreams to form these locations. I have been here before, I have seen this in my head.\r\n<br><br>\r\nThe security implications with this feels… invasive. I think I need to consult with the BONEWORKS team to see what they think or if they even have any idea about this at all.\r\n<br><br>\r\nSJ\r\n<br><br>\r\n",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 566
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 17352
+  },
+  "title": "<b>Heart or Core?</b>",
+  "body": "I’ve found what appears to be the energy center of the plate’s root system.\r\n<br><br>\r\nIt seems to respond well to rhythm and music, as if this affects its growth and direction, I’m going to need to go grab some things to further test and experiment with this.\r\n<br><br>\r\nIt honestly does feel a little creepy, not just that it almost feels alive but there is a sense of danger here… like a radiation penetrating through reality.\r\n<br><br>\r",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

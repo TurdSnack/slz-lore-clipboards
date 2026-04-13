@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 723
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 15418
+  },
+  "title": "<b> This Room 2/3</b> ",
+  "body": "<line-indent=10%> This room physically exists in a tiny hidden pocket deep in the depths of District05. We found out that Monogon security posters act as a pretty good deterrent for MonoSec scrutiny as they primarily focus on areas of MythOS that aren’t under watch. The posters don’t actually send them enough data for us to pop up on their radar.\r\n<br><br>\r\nAKO\r\n<br><br><br><br><br><br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

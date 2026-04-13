@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 137
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 43563
+  },
+  "title": "<b>Pools</b> ",
+  "body": "Aspects of the systems seem to sometimes spread over time and connect to others like neural pathways. \r\n<br><br>\r\nOr perhaps like water splashed out of a pool filling the grooves in the concrete slowly connecting branches before evaporating in a hot summer sun.\r\n<br><br>\r\nI know these worlds are spawned unprompted from an artificial intelligence, but the haunting sensation one can experience in these spaces sometimes hint at an unearthly sentience at the wheel.\r\n<br>\r\nWe never even got remotely this close at Gammon.\r\n<br><br>\r\nDr. Senzaki\r\n<br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 1,
+  "textColor": {
+    "r": 0.30588236,
+    "g": 0.30588236,
+    "b": 0.30588236,
+    "a": 1.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

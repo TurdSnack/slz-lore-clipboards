@@ -1,0 +1,53 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 652
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -342006695087480370
+  },
+  "m_Name": "",
+  "grip": {
+    "m_FileID": 0,
+    "m_PathID": 23764
+  },
+  "bottomGrip": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "title": "Comms Board",
+  "body": "Data Encrypted",
+  "tmp_title": {
+    "m_FileID": 0,
+    "m_PathID": 21090
+  },
+  "tmp_body": {
+    "m_FileID": 0,
+    "m_PathID": 21084
+  },
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivate": {
+    "m_FileID": 206,
+    "m_PathID": -4248821293015539175
+  },
+  "audioDeactivate": {
+    "m_FileID": 207,
+    "m_PathID": -7804336627250384967
+  },
+  "simpleSFX": {
+    "m_FileID": 0,
+    "m_PathID": 25616
+  }
+}

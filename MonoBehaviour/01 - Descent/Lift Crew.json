@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 150
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 6737
+  },
+  "title": "<b>Lift Crew</b> ",
+  "body": "WishingWell lift crew used to be one of the coolest jobs. The people of Heaven’s Reach would literally wish into a well and we would grant them by sending up what they were wishing for… <br><br> While our responsibility was just checking for historical accuracy, it was still somewhat romantic of an idea to play guardian angel for the people of Heaven’s Reach. <br><br> It is a shame that the elders of Heaven’s Reach decided anything obtained through wishing was akin to witchcraft. I am sure they will transfer me to another department or simulation but this one was peaceful and pleasant. <br><br> ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

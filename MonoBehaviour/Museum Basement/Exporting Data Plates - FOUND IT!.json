@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 121
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 21253
+  },
+  "title": "<color=#1D0707><b>Exporting Data Plates - FOUND IT!</b></color> ",
+  "body": "<line-indent=10%><color=#1D0707>C: I think we got it! How do we get this out of here?!</color>\r\n<br><br>\r\n<color=black>S: WHAT really!? Alright keep cool keep cool.. We can either go through one of the LavaGang door tunnels or we could try that spawnable elevator Hayes made.</color>\r\n<br><br>\r\n<color=#1D0707>C: There is absolutely no way we’re fitting this on an elevator. We’re going to need to truck it through a door but I’m worried how slow that is going to be. Definitely going to blip on some radars…</color>\r\n<br><br>\r\n<color=black>S: Guess I’ll start packing some guns.</color>\r\n<br><br>\r\n‎ ",
+  "font_custom": {
+    "m_FileID": 190,
+    "m_PathID": 4497554036623153059
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

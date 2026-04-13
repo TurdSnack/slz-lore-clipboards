@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 618
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 7518
+  },
+  "title": "<b>LiftCrew 06 - Supervisor’s Log</b> ",
+  "body": "For years we’ve been answering Heaven’s Reach wishes. They wish for more grain, we send some up in the lift. They wish for new members, we send up nulls. They call for tools, lumber, food, paint, parchment, metals, supplies… we deliver. <br><br> Now they decide we are not angels but demons? After all we have provided? They turn their backs on our gifts? <br><br> Well, perhaps they have been provided with too much peace. <br><br> I want to run an experiment, I shall send them a lift of supplies with weapons similar to tools they’re used to. They will come with no instruction, however I believe the slight variance in design will inspire them to violence… then we will see if they continue to ignore their providers. <br><br> ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

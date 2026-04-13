@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 524
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 7350
+  },
+  "title": "<b><color=#30803e>LiftCrew 06 - Wishing Well First Week</color></b> ",
+  "body": "<color=#30803e>I can’t believe how lucky I am to have landed this job. I was so worried after seeing so many friends graduate college and move back in with their parents. <br><br> So far my only responsibilities are photocopying logs for WishingWell supply lifts, but I am definitely not going to complain! <br><br> The crew I’m working with are super fun too, we spend most of our time playing headset games actually, especially since not many things are wished for anymore. They don’t seem to have any intention of cutting our hours and worst case I think maybe they’ll move us to a different sector. FantasyLand has always been my favorite though so I hope we get to stay here longer. </color> <br><br> ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

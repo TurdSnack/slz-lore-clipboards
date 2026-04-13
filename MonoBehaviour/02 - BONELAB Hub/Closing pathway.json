@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 24
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 14567
+  },
+  "title": "<b>Closing pathway</b> ",
+  "body": "I have to leave and seal this pathway. There are other more secure ways to get to the Lab and some less secure ways to get to the lab. It has come to my attention that this path from runoff could become compromised. \r\n<br><br>\r\nThe cleanup crew started swarming the district. I’m shutting this off.\r\n<br><br>\r\nIf you need info on my location, it’s in that place where I put that thing that time.\r\n<br><br>\r\nHTP\r\n<br>\r\nRiscii\r\n<br>\n‎ ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 1,
+  "textColor": {
+    "r": 0.30588236,
+    "g": 0.30588236,
+    "b": 0.30588236,
+    "a": 1.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

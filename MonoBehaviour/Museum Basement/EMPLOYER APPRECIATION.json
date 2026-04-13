@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 612
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 21738
+  },
+  "title": "<b>EMPLOYER APPRECIATION</b> ",
+  "body": "I am so happy I got this job in the Museum Archives! <br><br> What an honor it has been to secure Monogon proprietary museum data ! <br><br> I heard there may be a group of separatists sifting through and modifying structural components to the underlying structure of MythOS… They must be stopped, that's terrible! <br><br> At least I know they aren’t in HALFWAY PARK, that is where I go on my lunch breaks and its always carefully monitored. <br> This is the best job ever! <br><br> Thank you Monogon!, <br> -Chris <br><br> ",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

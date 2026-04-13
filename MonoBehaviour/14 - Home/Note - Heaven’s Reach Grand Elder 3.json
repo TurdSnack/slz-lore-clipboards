@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 326
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 9848
+  },
+  "title": "<b>Note - Heaven’s Reach Grand Elder</b>",
+  "body": "<line-indent=10%>The Great Pit Awoken\r\n<br><br>\r\n When the ground opened up destroying mother Margoret’s home, I had believed she perhaps had renounced the precepts and was damned… Oh Father Forgive us!\r\n<br><br>\r\nDiving into the depths we learn the truth.. Monogon gave us the precepts then left us to pursue sinful exploits elsewhere!\r\n<br><br>\r\nAt least this is not all loss. In their haste they have left behind treasures of unimaginable wonder! We have begun to mine through what we can find and will further explore these depths.",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

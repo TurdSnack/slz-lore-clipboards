@@ -1,0 +1,37 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 734
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": -1712414093729952502
+  },
+  "m_Name": "",
+  "_crateSpawner": {
+    "m_FileID": 0,
+    "m_PathID": 15436
+  },
+  "title": "<b>FantasyLand - Medieval Move</b> ",
+  "body": "<line-indent=10%> It is ridiculous that Monogon has decided to fork FantasyLand away from the medieval theme.\n<br><br>\nPeople were addicted enough, do they really need to expand immediately for more users? Quarterly profits worry?\n<br><br>\nThere is still so much interesting work to be done in the field, sigh.\n<br><br>",
+  "font_custom": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "useColor": 0,
+  "textColor": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 0.0
+  },
+  "audioActivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "audioDeactivateOverride": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}
