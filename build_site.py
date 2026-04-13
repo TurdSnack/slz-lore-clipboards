@@ -14,7 +14,13 @@ Folder structure for level assignment:
     (root files)     ← get level="default"
 
 Any subfolder name becomes a valid level key. Add new folders freely —
-just also add the audio entry in docs/js/app.js and a label below.
+then add a label below.
+
+Per-level thumbnails:
+  Place an image named after the level key in docs/thumbnails/
+  (e.g. docs/thumbnails/01 - descent.jpg). Any of .jpg .jpeg .png .webp
+  are recognised. All clipboards in that level will use it as their
+  card background image.
 """
 
 import json
@@ -23,10 +29,14 @@ import re
 import shutil
 
 
-INPUT_DIR   = os.path.join(os.path.dirname(__file__), "MonoBehaviour")
-OUTPUT_DIR  = os.path.join(os.path.dirname(__file__), "docs")
-TEXTURE_SRC = os.path.join(os.path.dirname(__file__), "Texture2D", "texture_clipBoardPaper.png")
-TEXTURE_DST = os.path.join(OUTPUT_DIR, "texture_clipBoardPaper.png")
+INPUT_DIR     = os.path.join(os.path.dirname(__file__), "MonoBehaviour")
+OUTPUT_DIR    = os.path.join(os.path.dirname(__file__), "docs")
+TEXTURE_SRC   = os.path.join(os.path.dirname(__file__), "Texture2D", "texture_clipBoardPaper.png")
+TEXTURE_DST   = os.path.join(OUTPUT_DIR, "texture_clipBoardPaper.png")
+LOGO_SRC      = os.path.join(os.path.dirname(__file__), "Texture2D", "logo_Monogon_white.png")
+LOGO_DST      = os.path.join(OUTPUT_DIR, "logo_Monogon_white.png")
+THUMBNAILS_DIR = os.path.join(OUTPUT_DIR, "thumbnails")
+THUMB_EXTS    = (".jpg", ".jpeg", ".png", ".webp")
 
 # Human-readable labels for each level folder name.
 # Add an entry here whenever you create a new subfolder.
@@ -56,7 +66,19 @@ LEVEL_LABELS = {
 }
 
 
-def load_entries() -> list[dict]:
+def build_thumbnail_map() -> dict[str, str]:
+    """Return a dict mapping level key → relative web path for its thumbnail."""
+    result = {}
+    if not os.path.isdir(THUMBNAILS_DIR):
+        return result
+    for fname in os.listdir(THUMBNAILS_DIR):
+        name, ext = os.path.splitext(fname)
+        if ext.lower() in THUMB_EXTS:
+            result[name.lower()] = f"thumbnails/{fname}"
+    return result
+
+
+def load_entries(thumbnail_map: dict[str, str]) -> list[dict]:
     """Walk INPUT_DIR and all immediate subdirectories for JSON files."""
     entries = []
 
@@ -84,29 +106,42 @@ def load_entries() -> list[dict]:
             slug = re.sub(r"[^\w-]", "_", filename.replace(".json", ""))
             entry_id = f"{level}__{slug}" if level != "default" else slug
 
-            entries.append({
+            entry = {
                 "id":     entry_id,
                 "source": os.path.relpath(filepath, INPUT_DIR).replace("\\", "/"),
                 "title":  title,
                 "body":   body,
                 "level":  level,
-            })
+            }
+
+            thumb = thumbnail_map.get(level)
+            if thumb:
+                entry["thumbnail"] = thumb
+
+            entries.append(entry)
 
     _load_dir(INPUT_DIR, "default")
     return entries
 
 
 def main():
-    os.makedirs(os.path.join(OUTPUT_DIR, "js"),    exist_ok=True)
-    os.makedirs(os.path.join(OUTPUT_DIR, "css"),   exist_ok=True)
-    os.makedirs(os.path.join(OUTPUT_DIR, "audio"), exist_ok=True)
+    os.makedirs(os.path.join(OUTPUT_DIR, "js"),  exist_ok=True)
+    os.makedirs(os.path.join(OUTPUT_DIR, "css"), exist_ok=True)
+    os.makedirs(THUMBNAILS_DIR,                  exist_ok=True)
 
-    # Copy texture into docs/ so GitHub Pages can serve it
+    # Copy static assets into docs/ so GitHub Pages can serve them
     if os.path.exists(TEXTURE_SRC):
         shutil.copy2(TEXTURE_SRC, TEXTURE_DST)
         print("Copied texture -> docs/texture_clipBoardPaper.png")
+    if os.path.exists(LOGO_SRC):
+        shutil.copy2(LOGO_SRC, LOGO_DST)
+        print("Copied logo    -> docs/logo_Monogon_white.png")
 
-    entries = load_entries()
+    thumbnail_map = build_thumbnail_map()
+    if thumbnail_map:
+        print(f"Found {len(thumbnail_map)} thumbnail(s): {', '.join(sorted(thumbnail_map))}")
+
+    entries = load_entries(thumbnail_map)
 
     # Collect all level keys found so we can warn about missing labels
     found_levels = sorted({e["level"] for e in entries})

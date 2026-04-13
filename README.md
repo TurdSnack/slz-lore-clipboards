@@ -1,6 +1,6 @@
 # BONELAB Lore Clipboards
 
-An archive and interactive viewer for all lore clipboards extracted from **BONELAB** by Stress Level Zero. Includes a static site that renders each clipboard over the original in-game paper texture with level-appropriate ambient audio and faithful text styling.
+An archive and interactive viewer for all lore clipboards extracted from **BONELAB** by Stress Level Zero. Includes a static site that renders each clipboard over the original in-game paper texture with faithful text styling and optional per-level location thumbnails.
 
 ---
 
@@ -49,14 +49,14 @@ An archive and interactive viewer for all lore clipboards extracted from **BONEL
 
 ## Static Site
 
-The site lives in `docs/` and is designed for GitHub Pages. It renders each clipboard over the original `texture_clipBoardPaper.png` with the custom **Code Pro LC** font, preserves in-game text colouring, and plays ambient audio per level.
+The site lives in `docs/` and is designed for GitHub Pages. It renders each clipboard over the original `texture_clipBoardPaper.png` with the custom **Code Pro LC** font and preserves in-game text colouring.
 
 ### Features
 
 - Grid of all 88 clipboards, filterable by level and searchable by title or body text
 - Clipboard viewer styled to match the in-game prop — correct paper texture, portrait aspect ratio, metal clip
 - In-game Unity TextMeshPro rich-text tags (`<color>`, `<b>`, `<br>`) converted to HTML, preserving coloured character voices
-- Per-level ambient audio (placeholder filenames provided — drop your files in and they play automatically)
+- Per-level location thumbnails — drop a photo into `docs/thumbnails/` and it becomes the card background for that level
 - Frosted texture effect at the top of the clipboard when scrolling long entries
 - Level badges colour-coded by a rotating palette — no CSS changes needed when adding levels
 - Fully client-side, no build step required after running `build_site.py`
@@ -101,19 +101,19 @@ python build_site.py
 
 This generates `docs/js/data.js` and copies the paper texture into `docs/`. Re-run whenever you add or move JSON files.
 
-#### 4. Add audio (optional)
+#### 4. Add location thumbnails (optional)
 
-Drop audio files into `docs/audio/`. The expected filenames match each level key with spaces replaced by hyphens:
+Place an image named after the level key into `docs/thumbnails/`. Supported formats: `.jpg`, `.jpeg`, `.png`, `.webp`.
 
 ```
-docs/audio/
-  01-descent.mp3
-  02-bonelab-hub.mp3
-  03-longrun.mp3
+docs/thumbnails/
+  01 - descent.jpg
+  02 - bonelab hub.jpg
+  rooftops.png
   ...
 ```
 
-To change a filename or disable audio for a level, edit the `AUDIO_MAP` at the top of `docs/js/app.js` and set `src` to your filename or `null`.
+The filename (without extension) must match the level key exactly — the same lowercase folder name used in `MonoBehaviour/`. Re-run `build_site.py` after adding images; it will pick them up automatically and embed the path into each matching clipboard entry. Cards for levels without a thumbnail fall back to the plain paper texture.
 
 #### 5. Test locally
 
@@ -122,7 +122,7 @@ cd docs
 python -m http.server 8000
 ```
 
-Open **http://localhost:8000**. A local server is required for audio to work (browsers block audio on `file://` URLs).
+Open **http://localhost:8000**.
 
 #### 6. Deploy to GitHub Pages
 
@@ -146,7 +146,7 @@ The title scales automatically at `1.3×` whatever value is set here.
 
 1. Create a subfolder under `MonoBehaviour/` with the level name
 2. Add the label to `LEVEL_LABELS` in `build_site.py`
-3. Add an audio entry to `AUDIO_MAP` in `docs/js/app.js`
+3. Optionally drop a thumbnail into `docs/thumbnails/<level-key>.jpg`
 4. Run `python build_site.py`
 
 No HTML or CSS changes are needed — the level filter and badge colours update automatically.
