@@ -40,6 +40,15 @@ function levelColor(level) {
   return LEVEL_COLORS[level] || PALETTE[PALETTE.length - 1];
 }
 
+// ── SFX ──────────────────────────────────────────────────────────
+const sfxOpen  = new Audio('audio/vom_c4.wav');
+const sfxClose = new Audio('audio/biph_sdown_F.wav');
+
+function playSfx(sfx) {
+  sfx.currentTime = 0;
+  sfx.play().catch(() => {});
+}
+
 // ── DOM refs ─────────────────────────────────────────────────────
 const grid         = document.getElementById('grid');
 const searchInput  = document.getElementById('search');
@@ -148,6 +157,7 @@ function openModal(cb) {
   modalBadge.style.color       = color;
   modalBadge.style.borderColor = color;
 
+  playSfx(sfxOpen);
   modal.classList.remove('hidden');
   document.body.style.overflow = 'hidden';
 
@@ -159,6 +169,7 @@ function openModal(cb) {
 }
 
 function closeModal() {
+  playSfx(sfxClose);
   modal.classList.add('hidden');
   document.body.style.overflow = '';
 }
