@@ -41,12 +41,14 @@ function levelColor(level) {
 }
 
 // ── SFX ──────────────────────────────────────────────────────────
-const sfxOpen  = new Audio('audio/vom_c4.wav');
-const sfxClose = new Audio('audio/biph_sdown_F.wav');
+const sfxOpen  = new Audio('audio/vom_c4.mp3');
+const sfxClose = new Audio('audio/biph_sdown_F.mp3');
 
 function playSfx(sfx) {
-  sfx.currentTime = 0;
-  sfx.play().catch(() => {});
+  try {
+    sfx.currentTime = 0;
+    sfx.play().catch(() => {});
+  } catch (_) {}
 }
 
 // ── DOM refs ─────────────────────────────────────────────────────
@@ -59,6 +61,7 @@ const modal          = document.getElementById('modal');
 const modalBackdrop  = document.getElementById('modal-backdrop');
 const modalClose     = document.getElementById('modal-close');
 const modalTitle     = document.getElementById('modal-title');
+const myth98ModalTitle   = document.getElementById('myth98-modal-title');
 const modalBody      = document.getElementById('modal-body');
 const modalBadge     = document.getElementById('modal-badge');
 const modalSource    = document.getElementById('modal-source');
@@ -123,17 +126,28 @@ function renderGrid() {
     card.setAttribute('role', 'button');
     card.setAttribute('aria-label', `Open: ${cb._titlePlain || 'Untitled'}`);
     card.dataset.id = cb.id;
-    if (cb.thumbnail) {
-      card.style.backgroundImage = `url('${cb.thumbnail}')`;
-    }
 
     card.innerHTML = `
-      <div class="card-overlay">
-        <span class="card-badge" style="color:${color};border-color:${color}">${levelLabel}</span>
-        <h2 class="card-title">${cb._titlePlain || '(Untitled)'}</h2>
-        ${previewText ? `<p class="card-preview">${previewText}&hellip;</p>` : ''}
+      <div class="myth98-titlebar card-titlebar">
+        <span class="myth98-titlebar-text">${cb._titlePlain || '(Untitled)'}</span>
+        <div class="myth98-titlebar-buttons" aria-hidden="true">
+          <span class="myth98-btn myth98-btn-min">&#x2014;</span>
+          <span class="myth98-btn myth98-btn-max">&#x25A1;</span>
+          <span class="myth98-btn myth98-btn-close">&#x2715;</span>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-overlay">
+          <span class="card-badge" style="border-color:${color};color:${color}">${levelLabel}</span>
+          <h2 class="card-title">${cb._titlePlain || '(Untitled)'}</h2>
+          ${previewText ? `<p class="card-preview">${previewText}&hellip;</p>` : ''}
+        </div>
       </div>
     `;
+
+    if (cb.thumbnail) {
+      card.querySelector('.card-body').style.backgroundImage = `url('${cb.thumbnail}')`;
+    }
 
     card.addEventListener('click', () => openModal(cb));
     card.addEventListener('keydown', e => {
@@ -149,7 +163,8 @@ function openModal(cb) {
   const color      = levelColor(cb.level);
   const levelLabel = (LEVEL_LABELS && LEVEL_LABELS[cb.level]) || cb.level;
 
-  modalTitle.textContent = plainTMP(cb.title) || '(Untitled)';
+  modalTitle.textContent   = plainTMP(cb.title) || '(Untitled)';
+  if (myth98ModalTitle) myth98ModalTitle.textContent = plainTMP(cb.title) || '(Untitled)';
   modalBody.innerHTML    = parseTMP(cb.body)  || '<em>No content.</em>';
   modalSource.textContent = cb.source;
 

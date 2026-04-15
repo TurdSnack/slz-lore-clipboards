@@ -49,12 +49,14 @@ An archive and interactive viewer for all lore clipboards extracted from **BONEL
 
 ## Static Site
 
-The site lives in `docs/` and is designed for GitHub Pages. It renders each clipboard over the original `texture_clipBoardPaper.png` with the custom **Code Pro LC** font and preserves in-game text colouring.
+The site lives in `docs/` and is designed for GitHub Pages. It renders each clipboard over the original `texture_clipBoardPaper.png` with the custom **Code Pro LC** font and preserves in-game text colouring. The visual design uses a **MythOS98** aesthetic — a Windows XP-inspired theme with blue gradient title bars, raised system buttons, and classic desktop chrome.
 
 ### Features
 
 - Grid of all 88 clipboards, filterable by level and searchable by title or body text
-- Clipboard viewer styled to match the in-game prop — correct paper texture, portrait aspect ratio, metal clip
+- Each card displays a MythOS98 window title bar with the clipboard name
+- Clipboard viewer styled to match the in-game prop — correct paper texture, portrait aspect ratio, full window chrome with working close button
+- Open/close sound effects on the clipboard viewer
 - In-game Unity TextMeshPro rich-text tags (`<color>`, `<b>`, `<br>`) converted to HTML, preserving coloured character voices
 - Per-level location thumbnails — drop a photo into `docs/thumbnails/` and it becomes the card background for that level
 - Frosted texture effect at the top of the clipboard when scrolling long entries
@@ -99,7 +101,7 @@ The script warns you if a folder is missing a label.
 python build_site.py
 ```
 
-This generates `docs/js/data.js` and copies the paper texture into `docs/`. Re-run whenever you add or move JSON files.
+This generates `docs/js/data.js` and copies the paper texture and Monogon logo into `docs/`. Re-run whenever you add or move JSON files.
 
 #### 4. Add location thumbnails (optional)
 
@@ -113,7 +115,7 @@ docs/thumbnails/
   ...
 ```
 
-The filename (without extension) must match the level key exactly — the same lowercase folder name used in `MonoBehaviour/`. Re-run `build_site.py` after adding images; it will pick them up automatically and embed the path into each matching clipboard entry. Cards for levels without a thumbnail fall back to the plain paper texture.
+The filename (without extension) must match the level key exactly — the same lowercase folder name used in `MonoBehaviour/`. Re-run `build_site.py` after adding images; it picks them up automatically and embeds the path into each matching clipboard entry. Cards for levels without a thumbnail fall back to the plain paper texture.
 
 #### 5. Test locally
 
@@ -132,9 +134,23 @@ In your repository settings, set GitHub Pages to serve from the `docs/` folder o
 
 ## Adjusting the Site
 
-### Clipboard font size
+### Clipboard text padding
 
-Edit the single variable in `docs/css/style.css`:
+The spacing inside the open clipboard viewer is controlled by two values in `docs/css/style.css`:
+
+```css
+--clip-pad: 2.2rem;   /* side and bottom padding */
+```
+
+```css
+.paper-content {
+  padding: 1rem var(--clip-pad) var(--clip-pad);  /* top | sides | bottom */
+}
+```
+
+Adjust the `1rem` top value to move text closer to or further from the title bar.
+
+### Clipboard font size
 
 ```css
 --paper-font-size: 1.5rem;

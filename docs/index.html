@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="myth98">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BONELAB // Secure Boards</title>
+  <title>MythOS // Secure Board Viewer</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,7 +14,7 @@
     <div class="header-inner">
       <img src="logo_Monogon_white.png" alt="Monogon Industries" class="header-logo">
       <div class="header-title">
-        <span class="header-label">MONOGON INDUSTRIES</span>
+        <span class="header-label">MYTH OS 98 - Service Pack 2</span>
         <h1>SECURE BOARDS // K.E.L.I - LORE ARCHIVE</h1>
       </div>
       <div class="header-controls">
@@ -46,17 +47,19 @@
 
       <!-- Clipboard widget -->
       <div class="clipboard">
-        <div class="clipboard-clip">
-          <div class="clip-bar"></div>
-          <div class="clip-hole"></div>
+        <div class="myth98-titlebar">
+          <span class="myth98-titlebar-icon">&#x1F4CB;</span>
+          <span class="myth98-titlebar-text" id="myth98-modal-title">Secure Board</span>
+          <div class="myth98-titlebar-buttons">
+            <button class="myth98-btn myth98-btn-min" tabindex="-1" aria-hidden="true">&#x2014;</button>
+            <button class="myth98-btn myth98-btn-max" tabindex="-1" aria-hidden="true">&#x25A1;</button>
+            <button class="myth98-btn myth98-btn-close" id="modal-close" aria-label="Close viewer">&#x2715;</button>
+          </div>
         </div>
         <div class="clipboard-body-wrap">
           <div class="clipboard-paper">
             <div class="paper-frost" aria-hidden="true"></div>
             <div class="paper-content">
-              <div class="paper-header">
-                <button class="close-btn" id="modal-close" aria-label="Close viewer">&times;</button>
-              </div>
               <h2 id="modal-title" class="paper-title"></h2>
               <div id="modal-body" class="paper-body"></div>
               <div class="paper-footer">

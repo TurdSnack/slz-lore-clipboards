@@ -9,26 +9,25 @@
 /* ── Reset & Base ─────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+/* ── MythOS98 theme ───────────────────────────────────────────── */
 :root {
-  --bg:          #111215;
-  --bg-alt:      #1a1c21;
-  --border:      #2e3038;
-  --text:        #c8cad0;
-  --text-dim:    #5a5e6e;
-  --accent:      #4e9af1;
+  --bg:       #3A6EA5;
+  --bg-alt:   #ECE9D8;
+  --border:   #848284;
+  --text:     #000000;
+  --text-dim: #6B6B6B;
+  --accent:   #0A246A;
 
-  --font-ui:   'Code Pro LC', monospace;
+  --font-ui:   Tahoma, 'Trebuchet MS', 'MS Sans Serif', sans-serif;
   --font-body: 'Code Pro LC', monospace;
 
-  --clip-w:    560px;
-  --clip-pad:  2.2rem;
-  --texture-ratio: calc(1793 / 1198); /* exact texture portrait ratio */
-
-  /* Clipboard text size — edit this value to match the in-game look */
-  --paper-font-size: 1.5rem;
+  --clip-w:             560px;
+  --clip-pad:           2.2rem;
+  --clip-pad-top:       9rem;   /* extra top offset to clear the clipboard image's title */
+  --paper-font-size:    2rem;
 }
 
-html { font-size: 16px; scroll-behavior: smooth; }
+html { font-size: 11px; scroll-behavior: smooth; }
 
 body {
   background: var(--bg);
@@ -44,14 +43,94 @@ body {
   clip: rect(0,0,0,0); overflow: hidden;
 }
 
+/* ───────────────────────────────────────────────────────────────
+   WINDOW CHROME  (modal title bar + card title bars)
+   ─────────────────────────────────────────────────────────────── */
+.myth98-titlebar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 4px 4px 6px;
+  background: linear-gradient(to right, #0A246A 0%, #2060C0 30%, #4E9AE0 70%, #90C8F6 100%);
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.myth98-titlebar-icon {
+  display: inline;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.myth98-titlebar-text {
+  flex: 1;
+  min-width: 0;
+  color: #FFFFFF;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.myth98-titlebar-buttons { display: flex; gap: 0.25rem; flex-shrink: 0; }
+
+.myth98-btn {
+  width: 21px;
+  height: 21px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #FAFAFF 0%, #C8C4BC 100%);
+  border: none;
+  border-radius: 3px;
+  color: #000;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+  box-shadow:
+    inset 1px 1px 0 rgba(255,255,255,0.9),
+    inset -1px -1px 0 rgba(0,0,0,0.2),
+    0 1px 2px rgba(0,0,0,0.3);
+}
+
+.myth98-btn:hover { background: linear-gradient(to bottom, #FFFFFF 0%, #DDD8D0 100%); }
+button.myth98-btn:active { background: linear-gradient(to bottom, #C8C4BC 0%, #FAFAFF 100%); }
+
+/* Min/Max are decorative — no pointer feedback */
+.myth98-btn-min,
+.myth98-btn-max { cursor: default; }
+
+.myth98-btn-close {
+  background: linear-gradient(135deg, #F06060 0%, #C03030 100%);
+  color: #FFFFFF;
+  border: none;
+}
+button.myth98-btn-close:hover  { background: linear-gradient(135deg, #FF7070 0%, #E04040 100%); }
+button.myth98-btn-close:active { background: linear-gradient(135deg, #C03030 0%, #E05050 100%); }
+
+/* Card title bars show the window chrome on every card */
+.card-titlebar { display: flex; }
+
+/* Hide buttons on cards — they only appear inside the open clipboard modal */
+.card-titlebar .myth98-btn-min,
+.card-titlebar .myth98-btn-max,
+.card-titlebar .myth98-btn-close { display: none; }
+
 /* ── Header ───────────────────────────────────────────────────── */
 .site-header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: var(--bg-alt);
-  border-bottom: 1px solid var(--border);
-  padding: 0.75rem 1.5rem;
+  background: linear-gradient(to bottom, #2060C0 0%, #1347A0 100%);
+  border-bottom: 2px solid #0A246A;
+  padding: 1rem 1rem;
 }
 
 .header-inner {
@@ -64,7 +143,7 @@ body {
 }
 
 .header-logo {
-  height: 100px;
+  height: 50px;
   width: auto;
   flex-shrink: 0;
   opacity: 0.85;
@@ -74,14 +153,15 @@ body {
   display: block;
   font-size: 0.7rem;
   letter-spacing: 0.25em;
-  color: var(--text-dim);
+  color: #B8D4F4;
   text-transform: uppercase;
 }
 
 .header-title h1 {
-  font-size: 1.1rem;
-  letter-spacing: 0.08em;
-  color: var(--accent);
+  font-size: 1rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 
 .header-controls {
@@ -89,24 +169,26 @@ body {
   gap: 0.75rem;
   margin-left: auto;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .header-controls input,
 .header-controls select {
-  background: var(--bg);
-  border: 1px solid var(--border);
-  color: var(--text);
+  background: #FFFFFF;
+  border: 2px solid;
+  border-color: #848284 #FFFFFF #FFFFFF #848284;
+  box-shadow: inset 1px 1px 1px rgba(0,0,0,0.2);
+  color: #000;
   font-family: var(--font-ui);
-  font-size: 0.9rem;
-  padding: 0.4rem 0.75rem;
-  border-radius: 3px;
+  font-size: 11px;
+  border-radius: 0;
+  padding: 0.25rem 0.5rem;
   outline: none;
-  transition: border-color 0.15s;
 }
 
 .header-controls input:focus,
 .header-controls select:focus {
-  border-color: var(--accent);
+  border-color: #0A246A #FFFFFF #FFFFFF #0A246A;
 }
 
 .header-controls input[type="search"] { width: 220px; }
@@ -120,13 +202,13 @@ main {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
 }
 
 .empty-state {
   text-align: center;
-  color: var(--text-dim);
+  color: #FFFFFF;
   padding: 4rem 0;
   font-size: 0.9rem;
   letter-spacing: 0.1em;
@@ -134,22 +216,20 @@ main {
 
 /* ── Card ─────────────────────────────────────────────────────── */
 .card {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   cursor: pointer;
-  border-radius: 4px;
   overflow: hidden;
-  aspect-ratio: 1198 / 1793;
-  background-image: url('../texture_clipBoardPaper.png');
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 0;
+  border: 2px solid;
+  border-color: #FFFFFF #848284 #848284 #FFFFFF;
+  box-shadow: 1px 1px 0 #C8C4BC, 2px 2px 6px rgba(0,0,0,0.4);
+  background: #ECE9D8;
+  transition: box-shadow 0.15s ease;
 }
 
 .card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.7);
+  box-shadow: 1px 1px 0 #C8C4BC, 3px 3px 12px rgba(0,0,0,0.55);
 }
 
 .card:focus-visible {
@@ -157,59 +237,56 @@ main {
   outline-offset: 2px;
 }
 
-/* Gradient overlay so text is readable over the texture */
+/* Texture/thumbnail area — drives the card's height via aspect-ratio */
+.card-body {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1198 / 1793;
+  background-image: url('../texture_clipBoardPaper.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Gradient overlay so text reads over the texture */
 .card-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(30,25,15,0.08) 0%,
-    rgba(30,25,15,0.55) 55%,
-    rgba(30,25,15,0.82) 100%
-  );
+  background: linear-gradient(to bottom, transparent 60%, rgba(10,8,5,0.72) 100%);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 1rem 0.9rem 0.85rem;
+  padding: 0.6rem 0.6rem 0.5rem;
 }
 
 .card-badge {
-  font-size: 0.7rem;
+  font-size: 1.2rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   padding: 0.15rem 0.4rem;
-  border-radius: 2px;
+  border-radius: 0;
   border: 1px solid currentColor;
   align-self: flex-start;
-  margin-bottom: 0.45rem;
+  margin-bottom: 0;
   opacity: 0.92;
+  background: rgba(0,0,0,0.5);
+  font-family: Tahoma, sans-serif;
 }
 
-.card-title {
-  font-family: var(--font-body);
-  font-size: 0.95rem;
-  font-weight: 700;
-  line-height: 1.3;
-  color: #1a1008;
-  text-shadow: 0 1px 2px rgba(255,255,255,0.3);
-}
+/* Title is shown in the card's myth98 titlebar instead */
+.card-title { display: none; }
 
 .card-preview {
-  font-family: var(--font-body);
-  font-size: 0.8rem;
-  color: #2a2015;
+  font-family: Tahoma, sans-serif;
+  font-size: 1.25rem;
+  color: #EEE;
   margin-top: 0.3rem;
   line-height: 1.4;
   opacity: 0.85;
-  /* clamp to 2 lines */
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
-/* Level badge colours are applied inline by app.js (palette-based),
-   so no per-level CSS classes are needed here. */
 
 /* ── Modal ────────────────────────────────────────────────────── */
 .modal {
@@ -225,8 +302,8 @@ main {
 .modal-backdrop {
   position: absolute;
   inset: 0;
-  background: rgba(8, 8, 10, 0.88);
-  backdrop-filter: blur(3px);
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(2px);
 }
 
 .modal-frame {
@@ -235,7 +312,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0;
   max-height: 90vh;
   width: min(var(--clip-w), 100%);
 }
@@ -245,71 +321,44 @@ main {
   width: 100%;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 12px 40px rgba(0,0,0,0.75), 0 2px 6px rgba(0,0,0,0.5);
-  border-radius: 4px 4px 3px 3px;
+  border-radius: 0;
+  border: 2px solid;
+  border-color: #FFFFFF #0A246A #0A246A #FFFFFF;
+  box-shadow: 2px 2px 0 #C8C4BC, 4px 4px 14px rgba(0,0,0,0.65);
   overflow: hidden;
 }
 
-.clipboard-clip {
-  background: linear-gradient(to bottom, #5a5a5a, #3a3a3a);
-  padding: 0.5rem 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.25rem;
-  border-bottom: 2px solid #222;
-}
-
-.clip-bar {
-  width: 60%;
-  height: 14px;
-  background: linear-gradient(to bottom, #888, #555);
-  border-radius: 3px;
-  box-shadow: inset 0 1px 2px rgba(255,255,255,0.15), 0 1px 3px rgba(0,0,0,0.5);
-}
-
-.clip-hole {
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: #222;
-  box-shadow: inset 0 1px 3px rgba(0,0,0,0.8);
-  border: 2px solid #444;
-}
-
-/* Wrapper gives us a positioned ancestor outside the scroll container */
 .clipboard-body-wrap {
   position: relative;
+  background: #ECE9D8;
+  padding: 3px;
 }
 
 .clipboard-paper {
   background-image: url('../texture_clipBoardPaper.png');
   background-size: cover;
   background-position: center;
+  border: 1px solid #ACA899;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.65);
   padding: 0;
   overflow-y: auto;
-  /* Lock the paper to the texture's portrait ratio; content scrolls if longer */
   aspect-ratio: 1198 / 1793;
   max-height: calc(90vh - 110px);
-  /* Stacking context so frost z-index is scoped inside the scroll container */
   isolation: isolate;
 }
 
-/* Frost sits inside the scroll container, sticks to the top, and uses a
-   negative margin so it doesn't push content down. z-index 0 keeps it
-   below .paper-content (z-index 1), so text remains fully readable. */
+/* ── Paper frost ──────────────────────────────────────────────── */
 .paper-frost {
   position: sticky;
   top: 0;
   width: 100%;
-  height: 20rem;
-  margin-bottom: -20rem;
+  height: 25rem;
+  margin-bottom: -25rem;
   pointer-events: none;
   z-index: 0;
   overflow: hidden;
   opacity: 0;
   transition: opacity 0.35s ease;
-  /* Fade the blurred texture out toward the bottom */
   -webkit-mask-image: linear-gradient(to bottom, black 20%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 20%, transparent 100%);
 }
@@ -317,7 +366,6 @@ main {
 .paper-frost::before {
   content: '';
   position: absolute;
-  /* Extend past the edges so blur doesn't show white fringing */
   inset: -16px;
   background-image: url('../texture_clipBoardPaper.png');
   background-size: cover;
@@ -325,48 +373,26 @@ main {
   filter: blur(10px);
 }
 
-.paper-frost.visible {
-  opacity: 1;
-}
+.paper-frost.visible { opacity: 1; }
 
 .paper-content {
   padding: var(--clip-pad);
+  padding-top: var(--clip-pad-top);
   position: relative;
   z-index: 1;
 }
 
-.paper-header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
-  margin-bottom: 1rem;
-}
-
 .level-badge {
-  font-size: 0.75rem;
+  font-size: 1.25rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   padding: 0.2rem 0.55rem;
-  border-radius: 2px;
+  border-radius: 0;
   border: 1px solid currentColor;
-  /* Shadow so the badge reads clearly over the paper texture */
-  box-shadow:
-    0 0 8px 3px rgba(0, 0, 0, 0.35),
-    0 2px 6px rgba(0, 0, 0, 0.25);
-  background: rgba(0, 0, 0, 0.55);
+  box-shadow: 0 0 8px 3px rgba(0,0,0,0.7), 0 2px 6px rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.75);
+  font-family: Tahoma, sans-serif;
 }
-
-.close-btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 1.6rem;
-  line-height: 1;
-  color: #555;
-  padding: 0 0.2rem;
-  transition: color 0.1s;
-}
-.close-btn:hover { color: #222; }
 
 .paper-title {
   font-family: var(--font-body);
@@ -400,11 +426,11 @@ main {
 }
 
 .paper-source {
-  font-size: 0.75rem;
-  color: #888;
+  font-size: 1.25rem;
+  color: #000;
   letter-spacing: 0.08em;
+  font-family: Tahoma, sans-serif;
 }
-
 
 /* ── Animations ───────────────────────────────────────────────── */
 @keyframes fadeIn {
@@ -412,14 +438,23 @@ main {
   to   { opacity: 1; transform: scale(1)    translateY(0);   }
 }
 
-.modal:not(.hidden) .modal-frame {
-  animation: fadeIn 0.18s ease forwards;
-}
+.modal:not(.hidden) .modal-frame { animation: fadeIn 0.18s ease forwards; }
 
-/* ── Scrollbar styling (webkit) ───────────────────────────────── */
-.clipboard-paper::-webkit-scrollbar { width: 6px; }
-.clipboard-paper::-webkit-scrollbar-track { background: transparent; }
+/* ── Scrollbar — WinXP system style ──────────────────────────── */
+.clipboard-paper::-webkit-scrollbar { width: 16px; }
+.clipboard-paper::-webkit-scrollbar-track {
+  background: #D4D0C8;
+  border-left: 1px solid #ACA899;
+}
 .clipboard-paper::-webkit-scrollbar-thumb {
-  background: rgba(0,0,0,0.2);
-  border-radius: 3px;
+  background: linear-gradient(to right, #ECE9DE, #C8C4BC);
+  border: 1px solid #848284;
+  border-radius: 0;
+  box-shadow: inset 1px 1px 0 rgba(255,255,255,0.7);
+}
+.clipboard-paper::-webkit-scrollbar-button {
+  display: block;
+  background: #D4D0C8;
+  border: 1px solid #848284;
+  height: 16px;
 }
