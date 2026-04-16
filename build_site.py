@@ -38,7 +38,7 @@ TEXTURE_DST   = os.path.join(OUTPUT_DIR, "texture_clipBoardPaper.png")
 LOGO_SRC      = os.path.join(os.path.dirname(__file__), "Texture2D", "logo_Monogon_white.png")
 LOGO_DST      = os.path.join(OUTPUT_DIR, "logo_Monogon_white.png")
 THUMBNAILS_DIR = os.path.join(OUTPUT_DIR, "thumbnails")
-THUMB_EXTS    = (".jpg", ".jpeg", ".png", ".webp", ".bmp")
+THUMB_EXTS    = (".jpg", ".jpeg", ".png", ".webp", ".bmp", ".gif")
 
 # Human-readable labels for each level folder name.
 # Add an entry here whenever you create a new subfolder.
