@@ -143,7 +143,7 @@ button.myth98-btn-close:active { background: linear-gradient(135deg, #C03030 0%,
 }
 
 .header-logo {
-  height: 50px;
+  height: 100px;
   width: auto;
   flex-shrink: 0;
   opacity: 0.85;
@@ -241,7 +241,7 @@ main {
 .card-body {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 1198 / 1793;
+  aspect-ratio: 1 / 1;
   background-image: url('../texture_clipBoardPaper.png');
   background-size: cover;
   background-position: center;

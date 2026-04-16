@@ -16,11 +16,13 @@ Folder structure for level assignment:
 Any subfolder name becomes a valid level key. Add new folders freely —
 then add a label below.
 
-Per-level thumbnails:
-  Place an image named after the level key in docs/thumbnails/
-  (e.g. docs/thumbnails/01 - descent.jpg). Any of .jpg .jpeg .png .webp
-  are recognised. All clipboards in that level will use it as their
-  card background image.
+Thumbnails (place images in docs/thumbnails/, .jpg .jpeg .png .webp supported):
+  Per-clipboard: name matches the JSON filename without extension
+                 (e.g. docs/thumbnails/My Clipboard.jpg for My Clipboard.json)
+  Per-level:     name matches the level folder key
+                 (e.g. docs/thumbnails/01 - descent.jpg)
+  Supported formats: .jpg .jpeg .png .webp .bmp
+  Per-clipboard takes precedence over per-level when both exist.
 """
 
 import json
@@ -36,7 +38,7 @@ TEXTURE_DST   = os.path.join(OUTPUT_DIR, "texture_clipBoardPaper.png")
 LOGO_SRC      = os.path.join(os.path.dirname(__file__), "Texture2D", "logo_Monogon_white.png")
 LOGO_DST      = os.path.join(OUTPUT_DIR, "logo_Monogon_white.png")
 THUMBNAILS_DIR = os.path.join(OUTPUT_DIR, "thumbnails")
-THUMB_EXTS    = (".jpg", ".jpeg", ".png", ".webp")
+THUMB_EXTS    = (".jpg", ".jpeg", ".png", ".webp", ".bmp")
 
 # Human-readable labels for each level folder name.
 # Add an entry here whenever you create a new subfolder.
@@ -114,7 +116,8 @@ def load_entries(thumbnail_map: dict[str, str]) -> list[dict]:
                 "level":  level,
             }
 
-            thumb = thumbnail_map.get(level)
+            file_stem = filename.replace(".json", "").lower()
+            thumb = thumbnail_map.get(file_stem) or thumbnail_map.get(level)
             if thumb:
                 entry["thumbnail"] = thumb
 

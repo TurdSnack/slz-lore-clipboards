@@ -6,56 +6,64 @@ const CLIPBOARDS = [
     "source": "01 - Descent/Elevators.json",
     "title": "<b>Elevators</b>",
     "body": "Why do we even use elevators in the simulation? Elevators are creepy, every time I get in one I am afraid they will snap and break and fall. I know this is a simulation and there is no reason for that to ever happen, but using this one as the only way to get in/out of the simulation for employees seems a bit ridiculous no?",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/Elevators.bmp"
   },
   {
     "id": "01 - descent__FL_CastMember_-_LAVAGANG",
     "source": "01 - Descent/FL CastMember - LAVAGANG.json",
     "title": "<b>FL CastMember - LAVAGANG</b>",
     "body": "<line-indent=10%>[REDACTED]: Let's do this. Instead of throwing out the extra FantasyLand data as garbage, we’ll start smuggling it out and build our own FantasyLand. We can use this space to test and create our ideas outside the control of MythOS and Monogon! <br><br> We’ll slowly gather members and eventually house an army of creators all building a fantastic wild simulated future! <br><br> First Rule of Lavagang: Talk about Lavagang! <br><br>",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/FL Castmember - LAVAGANG.bmp"
   },
   {
     "id": "01 - descent__FL_Castmember_-_AI_data_collection__Request_to_Abandon",
     "source": "01 - Descent/FL Castmember - AI data collection, Request to Abandon.json",
     "title": "<b>FL Castmember - AI data collection, Request to Abandon</b>",
     "body": "<line-indent=10%>It seems a Heaven’s Reach elder has decided to seal off catacomb access from their town after stumbling down here. Continuously they have sent free-thinking dissenters down into these tombs and we have done our best to study and understand how the simulation is learning. <br><br> The Heaven’s Reach FantasyLand simulation is deciding to go purely self-sustaining. They are now viewing Castmembers in a negative light. Left to their own devices, the AI has become extremely conservative in their ideologies. <br><br> We will probably need to abandon this research dungeon and seal off the backpaths into Myth. <br><br> No skin off my back, this job is a little too creepy. <br><br>",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/FL Castmember - AI data collection, Request to Abandon.bmp"
   },
   {
     "id": "01 - descent__FL_Castmember_-_Costume_Requirements",
     "source": "01 - Descent/FL Castmember - Costume Requirements.json",
     "title": "<b>FL Castmember - Costume Requirements</b>",
     "body": "<line-indent=10%>I actually have to admit that its fun to get dressed up in different fantasy outfits for work every day. I know some people were complaining about the constant wardrobe changes but for me this has been great. <br><br> It is very peaceful to experience a simple fantasy life for a little while every day. My home life hasn’t been too great recently and I look forward to this time every night. <br><br>",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/FL Castmember - Costume Requirements.bmp"
   },
   {
     "id": "01 - descent__FL_Castmember_-_Dungeon_Torture_Aesthetics",
     "source": "01 - Descent/FL Castmember - Dungeon Torture Aesthetics.json",
     "title": "<b>FL Castmember - Dungeon / Torture Aesthetics</b>",
     "body": "<line-indent=10%>It is a little weird that we put these torture weapons on display. I understand we’re trying to maintain the dungeon aesthetic for authenticity but it almost feels wrong.   <br><br> Is MythOS running a Stanford Prison Experiment on us? Every cast member has been very careful not to harm or abuse artificial entities even though they are just sentient decoration. <br><br>",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/FL Castmember - Dungeon Torture Aesthetics.bmp"
   },
   {
     "id": "01 - descent__FL_Castmember_-_Transit_Pass",
     "source": "01 - Descent/FL Castmember - Transit Pass.json",
     "title": "<b>FL Castmember - Transit Pass</b>",
     "body": "<line-indent=10%>Well I finally accidentally destroyed my transit pass.. This is annoying because the system wont let me on the train no matter what and refuses to spawn me a new pass. Does the AI WANT to trap me here? <br><br> I guess the best move will be to walk back through the offices and try to find a simulation exit elevator. <br><br>",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/FL Castmember - Transit Pass.bmp"
   },
   {
     "id": "01 - descent__FL_Castmember_-_TrashHandlers",
     "source": "01 - Descent/FL Castmember - TrashHandlers.json",
     "title": "<b>FL Castmember - TrashHandlers</b>",
     "body": "<line-indent=10%><color=#1c4b67>TH-101138: Cleaning day is such a funny thing. Us TrashHandlers have to clean everyday then once a month they require all regular employees to help? </color> <br><br> <color=#30803e>TH-050255: I am so tired of cleaning up this fantasy stuff, can’t we just cleanse it all with lava and restart?</color> <br><br> <color=#1c4b67>TH-101138: Cleanse it with lava, rebuild from scratch, let us create stuff sometimes too.</color> <br><br> <color=#30803e>TH-050255: Yeah maybe we should get a “Creation day” where us TrashHandlers get to create whatever random stuff we want? Going to be a lot more lava thats for sure.</color> <br><br> <color=#1c4b67>TH-101138: Lava gang roll in, break things, melt stuff, clean up, sign off!</color> <br><br>",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/FL Castmember - TrashHandlers.bmp"
   },
   {
     "id": "01 - descent__Fantasy_Land_Shipping",
     "source": "01 - Descent/Fantasy Land Shipping.json",
     "title": "<b>Fantasy Land Shipping</b>",
     "body": "<line-indent=10%> Alright, using console DEMANDS it is possible to package any items for shipping within FantasyLand assets.\r\n<br><br>\r\nI’ll begin shipping medieval recycling to Trash Handlers Processing, Long term storage, and Museum Archival Group.\r\n<br><br>\r\nNobody should catch on if we use any of these channels to transport anything ;)\r\n<br><br>\r\n- Electrician\r\n<br>\n‎",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/Fantasy Land Shipping.bmp"
   },
   {
     "id": "01 - descent__FantasyLand_Guests",
@@ -69,63 +77,72 @@ const CLIPBOARDS = [
     "source": "01 - Descent/Lift Crew.json",
     "title": "<b>Lift Crew</b>",
     "body": "WishingWell lift crew used to be one of the coolest jobs. The people of Heaven’s Reach would literally wish into a well and we would grant them by sending up what they were wishing for… <br><br> While our responsibility was just checking for historical accuracy, it was still somewhat romantic of an idea to play guardian angel for the people of Heaven’s Reach. <br><br> It is a shame that the elders of Heaven’s Reach decided anything obtained through wishing was akin to witchcraft. I am sure they will transfer me to another department or simulation but this one was peaceful and pleasant. <br><br>",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/Lift Crew.bmp"
   },
   {
     "id": "01 - descent__LiftCrew_06_-_Concerning_Observations",
     "source": "01 - Descent/LiftCrew 06 - Concerning Observations.json",
     "title": "<b><color=#89172c>LiftCrew 06 - Concerning Observations</color></b>",
     "body": "<color=#89172c>REPORT - It is time to submit an official grievance of ethical concern relating to LiftCrew06 operating supervisor [REDACTED]. <br><br> Observing party: [REDACTED] <br><br> Observation: LiftCrew06 Operating Supervisor has expressed ethically questionable intent in relation to Heaven’s Reach inhabitants, directly contradicting the prime directive. <br><br> We are tasked with maintaining a level of standard with which to grant appropriate requests for aid from the Heaven’s Reach Simulation entities. While rendering aid through the Wishing Well Lift, the supervisor on hand began issuing orders to alter fulfilled wish requests with items outside the guidelines of said requests. <br><br> I believe these altered wish grants could in turn modify the behavior of the inhabitants of the simulation in negative and undesirable ways.  <br><br> Please take appropriate action to correct this ethically questionable behavior.  </color> <br><br>",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/LiftCrew 06 - Concerning Observations.bmp"
   },
   {
     "id": "01 - descent__LiftCrew_06_-_FantasyLand",
     "source": "01 - Descent/LiftCrew 06 - FantasyLand.json",
     "title": "<b><color=#224877>LiftCrew 06 - FantasyLand</color></b>",
     "body": "<color=#224877>FantasyLand people are actually straight up stupid. They wish for the dumbest things I can’t even believe it. Not once have they wished for alcohol or stuff to brew their own. <br><br> I was going to start a pool with the boys on what sport, if any, they would come up with but these Heaven’s Reach losers can’t even come up with anything. They spend all their time struggling to survive in an environment we perfectly crafted for them to survive in! We send them whatever they want and it is always just boring basics. <br><br> You’d think one of them would have a dream for once and wish for a motorcycle or something badass, come on! </color> <br><br>",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/LiftCrew 06 - FantasyLand.bmp"
   },
   {
     "id": "01 - descent__LiftCrew_06_-_Supervisor_s_Log",
     "source": "01 - Descent/LiftCrew 06 - Supervisor’s Log.json",
     "title": "<b>LiftCrew 06 - Supervisor’s Log</b>",
     "body": "For years we’ve been answering Heaven’s Reach wishes. They wish for more grain, we send some up in the lift. They wish for new members, we send up nulls. They call for tools, lumber, food, paint, parchment, metals, supplies… we deliver. <br><br> Now they decide we are not angels but demons? After all we have provided? They turn their backs on our gifts? <br><br> Well, perhaps they have been provided with too much peace. <br><br> I want to run an experiment, I shall send them a lift of supplies with weapons similar to tools they’re used to. They will come with no instruction, however I believe the slight variance in design will inspire them to violence… then we will see if they continue to ignore their providers. <br><br>",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/LiftCrew 06 - Supervisor’s Log.bmp"
   },
   {
     "id": "01 - descent__LiftCrew_06_-_Wishing_Well_First_Week",
     "source": "01 - Descent/LiftCrew 06 - Wishing Well First Week.json",
     "title": "<b><color=#30803e>LiftCrew 06 - Wishing Well First Week</color></b>",
     "body": "<color=#30803e>I can’t believe how lucky I am to have landed this job. I was so worried after seeing so many friends graduate college and move back in with their parents. <br><br> So far my only responsibilities are photocopying logs for WishingWell supply lifts, but I am definitely not going to complain! <br><br> The crew I’m working with are super fun too, we spend most of our time playing headset games actually, especially since not many things are wished for anymore. They don’t seem to have any intention of cutting our hours and worst case I think maybe they’ll move us to a different sector. FantasyLand has always been my favorite though so I hope we get to stay here longer. </color> <br><br>",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/LiftCrew 06 - Wishing Well First Week.bmp"
   },
   {
     "id": "01 - descent__MythOS_to_FantasyLand_shipping_services",
     "source": "01 - Descent/MythOS to FantasyLand shipping services.json",
     "title": "<b>MythOS to FantasyLand shipping services</b>",
     "body": "Lately we have been transferring more and more security resources to this area. A noticeable increase in modern firearms and ammunition, despite this sector being clearly tagged as Fantasy, Medieval, Gothic, Antique, DarkAge.  <br><br> I am not one to question the intention of the system, but we’re starting to get to a stack overflow state where an excess of weaponry is stored around leading to tighter space for actual fantasy supplies.  <br><br> If we could get some of this stuff offloaded or reallocated to an appropriate location we could have more room for actual medieval assets… <br><br>",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/MythOS to FantasyLand shipping services.bmp"
   },
   {
     "id": "01 - descent__NOTICE_-_LIFT_ACCESS_LOCKDOWN",
     "source": "01 - Descent/NOTICE - LIFT ACCESS LOCKDOWN.json",
     "title": "<b>NOTICE - LIFT ACCESS LOCKDOWN</b>",
     "body": "Any null entity set to ascend into fantasy land MUST be secured to the lift and adorned with a fantasy appropriate avatar body. <br><br> Nulls that are detected to not be prepared for ascension will force an immediate quarantine of the lift area until destroyed. <br><br> <b>Please do not activate the emergency quarantine override.</b> <br><br>",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/NOTICE - LIFT ACCESS LOCKDOWN.bmp"
   },
   {
     "id": "01 - descent__Note_-_Heaven_s_Reach_Grand_Elder",
     "source": "01 - Descent/Note - Heaven’s Reach Grand Elder.json",
     "title": "<b>Note - Heaven’s Reach Grand Elder</b>",
     "body": "<line-indent=10%>After great deliberation with the underdwellers, we have decided to seal up these tombs and retract any record of their existence. <br><br> Far too long have we retained this devilish pact, allowing these subterranean demons to toy with the souls of our flock.  <br><br> Henceforth we shall ensure our destitutes are unable to reach these horrible halls, at any cost. <br><br> The horrors of keeping souls alive while the flesh decays… this is necromancy.",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/Note - Heaven’s Reach Grand Elder.bmp"
   },
   {
     "id": "01 - descent__Observations_on_Lift_Crew",
     "source": "01 - Descent/Observations on Lift Crew.json",
     "title": "Observations on Lift Crew",
     "body": "<b>REPORT - Antique Analysis Lift Crew.</b> <br><br> A team member considers submitting ethical grievances against superior. Employee expresses empathetic concern over Heaven’s Reach inhabitants well wishes.   <br><br> No further action necessary just yet. Continued observation necessary. <br><br> AA “Secretary”",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/Observations on Lift Crew.bmp"
   },
   {
     "id": "02 - bonelab hub__Cleaning_Out_Old_Projects",
