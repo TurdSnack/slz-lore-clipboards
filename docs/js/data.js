@@ -70,7 +70,8 @@ const CLIPBOARDS = [
     "source": "01 - Descent/FantasyLand Guests.json",
     "title": "<b>FantasyLand Guests</b>",
     "body": "<line-indent=10%>The FantasyLand guests accept the simulated life for what it is. They like experiencing this, they PAID for it!<br><br> If they're addicted to the raw experience and don't want our help or intervention then I am not really sure what we can do... We get paid by Monogon either way!<br><br>",
-    "level": "01 - descent"
+    "level": "01 - descent",
+    "thumbnail": "thumbnails/FantasyLand Guests.gif"
   },
   {
     "id": "01 - descent__Lift_Crew",
@@ -149,84 +150,96 @@ const CLIPBOARDS = [
     "source": "02 - BONELAB Hub/Cleaning Out Old Projects.json",
     "title": "<b>Cleaning Out Old Projects</b>",
     "body": "OKAY since we have some extra downtime now and we want to move quickly later, I am going to do some serious culling of old projects.\r\n<br><br>\r\nSome of the more experimental work accumulated a whole bunch of odd stuff that we need to pick through… maybe some of it’s useful outside the lab but right now we need to quarantine this stuff.\r\n<br><br>\r\nWe still don’t know exactly how the teams will want to assemble things but we have lots of data on Sabrelake’s security uses.\r\n<br>\r\nFunny…\r\n<br><br>\r\nRiscii\r\n<br>\n‎",
-    "level": "02 - bonelab hub"
+    "level": "02 - bonelab hub",
+    "thumbnail": "thumbnails/Cleaning Out Old Projects.gif"
   },
   {
     "id": "02 - bonelab hub__Closing_pathway",
     "source": "02 - BONELAB Hub/Closing pathway.json",
     "title": "<b>Closing pathway</b>",
     "body": "I have to leave and seal this pathway. There are other more secure ways to get to the Lab and some less secure ways to get to the lab. It has come to my attention that this path from runoff could become compromised. \r\n<br><br>\r\nThe cleanup crew started swarming the district. I’m shutting this off.\r\n<br><br>\r\nIf you need info on my location, it’s in that place where I put that thing that time.\r\n<br><br>\r\nHTP\r\n<br>\r\nRiscii\r\n<br>\n‎",
-    "level": "02 - bonelab hub"
+    "level": "02 - bonelab hub",
+    "thumbnail": "thumbnails/Closing Pathway.gif"
   },
   {
     "id": "02 - bonelab hub__EMERGENCY_NOTICE_-_Monogon_Security",
     "source": "02 - BONELAB Hub/EMERGENCY NOTICE - Monogon Security.json",
     "title": "<b>EMERGENCY NOTICE - Monogon Security</b>",
     "body": "Assume all databoard communications are being monitored.\r\n<br><br>\r\nWe knew bringing the whole office to the LAB-SPA was only temporary.\r\n<br><br>\r\nMonoSec has caught on and will start digging into our work.\r\n<br><br>\r\nWe have to find a way to get the incomplete systems out for continued development, they can’t be allowed to confiscate it.\r\n<br>\r\nSmash and flush EVERYTHING immediately. \r\n<br><br>\r\n- No more public comms. Execute Plan A-3\r\n<br><br>",
-    "level": "02 - bonelab hub"
+    "level": "02 - bonelab hub",
+    "thumbnail": "thumbnails/EMERGENCY NOTICE - Monogon Security.gif"
   },
   {
     "id": "02 - bonelab hub__FantasyLand_-_Medieval_Move",
     "source": "02 - BONELAB Hub/FantasyLand - Medieval Move.json",
     "title": "<b>FantasyLand - Medieval Move</b>",
     "body": "<line-indent=10%> It is ridiculous that Monogon has decided to fork FantasyLand away from the medieval theme.\n<br><br>\nPeople were addicted enough, do they really need to expand immediately for more users? Quarterly profits worry?\n<br><br>\nThere is still so much interesting work to be done in the field, sigh.\n<br><br>",
-    "level": "02 - bonelab hub"
+    "level": "02 - bonelab hub",
+    "thumbnail": "thumbnails/FantasyLand - Medieval Move.gif"
   },
   {
     "id": "02 - bonelab hub__LAB_HUB_Location",
     "source": "02 - BONELAB Hub/LAB HUB Location.json",
     "title": "<b>LAB HUB Location</b>",
     "body": "Everyone should still have access to the Lab hub if they use one of the Boneworks backdoor methods. It’s a fully self contained bridge so as long as everyone manages to keep a copy of their ID badges.\r\n<br><br>\r\nPlease keep track of your ID badges.\r\n<br><br>\r\n\r\n<br>\r\nSee ya!\r\n<br><br>\r\nRiscii\r\n<br>\n‎",
-    "level": "02 - bonelab hub"
+    "level": "02 - bonelab hub",
+    "thumbnail": "thumbnails/LAB HUB Location.gif"
   },
   {
     "id": "02 - bonelab hub__MEMO_BreakRoom_Renovations",
     "source": "02 - BONELAB Hub/MEMO BreakRoom Renovations.json",
     "title": "<b>MEMO: BreakRoom Renovations</b>",
     "body": "<line-indent=10%> Just a notice to let everyone know, we will be fully renovating the breakroom after the transfer from District06 to the [REDACTED].\n<br><br>\nPLEASE PLEASE PLEASE make sure to remove food items in each of your corrosponding spaces as fid-markers will be reset leading to un-tracked containers.\n<br><br>\nYou are responsible for your own mess!\n<br><br>",
-    "level": "02 - bonelab hub"
+    "level": "02 - bonelab hub",
+    "thumbnail": "thumbnails/MEMO BreakRoom Renovations.gif"
   },
   {
     "id": "02 - bonelab hub__Moving_Labs",
     "source": "02 - BONELAB Hub/Moving Labs.json",
     "title": "<b> Moving Labs?</b>",
     "body": "The Lab has gone through so many iterations at this point that I’ve completely lost track of what version number we should call it. The aim is to provide a comfortable yet usable space for everyone that works here and to get to this point has been a monumental undertaking!\r\n<br><br>\r\nI’ve started design work on a new place, [REDACTED] that will work pretty well for continued research into [REDACTED].\r\n<br><br>\r\nThe project list has outgrown MythOS and our Lab; or at least the instability of the experiments make this a dangerous place to continue.. So time for [REDACTED]!\r\n<br><br>\r\nI’ll keep this place connected to the Lab for the time being but that will need to change at some point.\r\n<br>\r\nAKO\r\n<br>\n‎",
-    "level": "02 - bonelab hub"
+    "level": "02 - bonelab hub",
+    "thumbnail": "thumbnails/Moving Labs.gif"
   },
   {
     "id": "02 - bonelab hub__Special_Projects_Area",
     "source": "02 - BONELAB Hub/Special Projects Area.json",
     "title": "<b>Special Projects Area</b>",
     "body": "Alright it seems like MonoSec hasn’t yet found the Special Projects Area but they have started a serious investigation into the disappearance of our office in District06. I’m still not taking any chances.\r\n<br><br>\r\nSo far I don’t believe there is a mole or any saboteurs on the team or the hounds would have been here sooner. It will be safer for everyone if we split and fade into isolation.\r\n<br><br>\r\n\r\n<br>\r\nEveryone is clever enough not to get caught (I hope). If anyone does get found by Alora or Monogon, we may need to plan to mount a rescue mission.\r\n<br><br>\r\nRiscii\r\n<br>\n‎",
-    "level": "02 - bonelab hub"
+    "level": "02 - bonelab hub",
+    "thumbnail": "thumbnails/Special Projects Area.gif"
   },
   {
     "id": "02 - bonelab hub__This_Room_13",
     "source": "02 - BONELAB Hub/This Room 13.json",
     "title": "<b> This Room 1/3</b>",
     "body": "<line-indent=10%> Hello! If you’re reading this then either:\r\n<br>\r\nYou’re a Lab member, welcome! The following text won’t be redacted.\r\n<br>\r\nYou’re a Monogon/Sabrelake/Gammon Security Agent. GET BENT (The following text will be REDACTED!)\r\n<br><br>\r\nIf you’ve come here from the Lab then let me explain that this room does NOT exist in the same space as the Lab… This little space exists within MythOS while the Lab technically does not (Hence the giant “You’re Being Watched” poster right there). Spaces can be connected to one another through a variety of ways and even if they seem to be directly physically connected they often aren’t.\r\n<br><br>\r\nAKO\r\n<br>\n‎",
-    "level": "02 - bonelab hub"
+    "level": "02 - bonelab hub",
+    "thumbnail": "thumbnails/This Room 13.gif"
   },
   {
     "id": "02 - bonelab hub__This_Room_23",
     "source": "02 - BONELAB Hub/This Room 23.json",
     "title": "<b> This Room 2/3</b>",
     "body": "<line-indent=10%> This room physically exists in a tiny hidden pocket deep in the depths of District05. We found out that Monogon security posters act as a pretty good deterrent for MonoSec scrutiny as they primarily focus on areas of MythOS that aren’t under watch. The posters don’t actually send them enough data for us to pop up on their radar.\r\n<br><br>\r\nAKO\r\n<br><br><br><br><br><br>\n‎",
-    "level": "02 - bonelab hub"
+    "level": "02 - bonelab hub",
+    "thumbnail": "thumbnails/This Room 23.gif"
   },
   {
     "id": "02 - bonelab hub__This_Room_33",
     "source": "02 - BONELAB Hub/This Room 33.json",
     "title": "<b> This Room 3/3</b>",
     "body": "<line-indent=10%> This room is only accessible to the Lab if you DON’T have MonoSec credentials, that is why you’re able to read this!\r\n<br>\r\nI managed to move all of my projects from MythOS into the Lab, however now I’m aiming to move to [REDACTED].\r\n<br><br>\r\nThis room is left connected so I may have a convenient way between the Lab and MythOS if need-be. In the event of the Lab location being compromised, this room’s connection will be severed automatically. \r\n<br><br>\r\nAKO\r\n<br>\n‎",
-    "level": "02 - bonelab hub"
+    "level": "02 - bonelab hub",
+    "thumbnail": "thumbnails/This Room 33.gif"
   },
   {
     "id": "02 - bonelab hub__Work_Machine",
     "source": "02 - BONELAB Hub/Work Machine.json",
     "title": "<b>Work Machine</b>",
     "body": "<line-indent=10%> No information of value may be found on this computer, it is simply a clone of my mimic-machine from the old office.\r\n<br><br>\r\nIf you want to see what’s being worked on you will have to find me at [REDACTED] in the future :)\r\n<br><br>\r\nAKO\r\n<br>\n‎",
-    "level": "02 - bonelab hub"
+    "level": "02 - bonelab hub",
+    "thumbnail": "thumbnails/Work Machine.gif"
   },
   {
     "id": "03 - longrun__Climate_Science",
